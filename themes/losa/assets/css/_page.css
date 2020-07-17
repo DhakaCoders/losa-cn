@@ -1,20 +1,22 @@
 .slick-slider ul.slick-dots{
 	position: static;
-	height: 16px;
+	height: 15px;
 	line-height: 0;
 	padding: 0 20px!important;
 }
 .slick-slider .slick-dots li{
-	width: 16px!important;
-	height: 16px!important;
+	width: 15px!important;
+	height: 15px!important;
 	position: static;
-	background: #E1E1E1!important;
-	border-radius: 100% 100%!important;
-	margin: 0 8px;
+	margin: 0 6px;
 	padding: 0!important;
+	background: url('../images/dots-btn.png');
+	background-size: 100% 100%!important;
+	background-position: center center!important;
+	background-repeat: no-repeat!important;
 }
 .slick-slider .slick-dots li.slick-active{
-	background: #F3BA4B!important;
+	background: url('../images/dots-btn-hover.png');
 }
 .slick-slider .slick-dots li:before,
 .slick-slider .slick-dots li button:before{
@@ -22,6 +24,58 @@
 }
 .slick-slider .slick-dots li button{
 	padding: 0;
-	width: 16px;
-	height: 16px;
+	width: 15px;
+	height: 15px;
+}
+.slick-next,.slick-prev{
+	height: 88px;
+	width: 44px;
+	position: static;
+	margin: 0;
+	padding: 0;
+}
+.slick-prev{
+	background: url('../images/prev-btn.png');
+	background-size: 100% 100%!important;
+	background-position: center center!important;
+	background-repeat: no-repeat!important;
+}
+.slick-prev:hover{
+	background: url('../images/prev-btn-hover.png');
+	background-size: 100% 100%!important;
+	background-position: center center!important;
+	background-repeat: no-repeat!important;
+}
+.slick-next{
+	background: url('../images/next-btn.png');
+	background-size: 100% 100%!important;
+	background-position: center center!important;
+	background-repeat: no-repeat!important;
+}
+.slick-next:hover{
+	background: url('../images/next-btn-hover.png');
+	background-size: 100% 100%!important;
+	background-position: center center!important;
+	background-repeat: no-repeat!important;
+}
+.slick-prev:before,
+.slick-next:before{
+    content: none;
+}
+
+.ls-slider-sec .slick-slider .slick-dots{
+	position: absolute;
+	bottom: -50px;
+}
+.ls-slider-sec .slick-prev{
+	position: absolute;
+	top: 50%;
+	left: -40px;
+	transform: translateY(-50%);
+}
+.ls-slider-sec .slick-next{
+	position: absolute;
+	top: 50%;
+	right: -40px;
+	transform: translateY(-50%);
 }
