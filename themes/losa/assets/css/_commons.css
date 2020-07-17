@@ -130,7 +130,9 @@ em{
 strong{
 	font-weight: 700;
 }
-
+.text-white{
+	color: #fff;
+}
 .hide-lg{
 	display: block!important;
 }
