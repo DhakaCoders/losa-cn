@@ -149,6 +149,17 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 }
 
+if( $('.hmSlider').length ){
+    $('.hmSlider').slick({
+      dots: true,
+      infinite: false,
+      speed: 300,
+      arrows:true,
+      slidesToShow: 4,
+      slidesToScroll: 1
+    });
+}
+
   /* End-of-shariful*/
 
 
