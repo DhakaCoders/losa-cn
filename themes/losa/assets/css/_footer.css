@@ -1,0 +1,12 @@
+.footer-copy-right-sec{
+	background: #ed1b24;
+}
+.footer-copy-right{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-copy-right p{
+	color: #fff;
+	margin-bottom: 0;
+}
