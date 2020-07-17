@@ -16,10 +16,13 @@ a, a:hover, a:focus, button:hover, button:focus{
 }
 
 body {
-    background: #f8f8f8;
-    color: #000000;
-    font-size: 18px;
-    line-height: 24px;
+    background: #fff;
+    color: #292929;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 p{
 	line-height: 1.2;
@@ -121,7 +124,15 @@ img{
 	max-width: 100%;
 	height: auto;
 }
-
+em{
+	font-style: italic;
+}
+strong{
+	font-weight: 700;
+}
+.text-white{
+	color: #fff;
+}
 .hide-lg{
 	display: block!important;
 }

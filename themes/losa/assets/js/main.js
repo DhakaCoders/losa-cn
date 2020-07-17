@@ -149,6 +149,20 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 }
 
+  /* End-of-shariful*/
+
+
+
+
+
+  /* End-of-Noyon*/
+
+
+
+
+
+  /* End-of-Ranojit*/
+
     new WOW().init();
 
 })(jQuery);
