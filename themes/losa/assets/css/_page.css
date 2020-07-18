@@ -69,13 +69,13 @@
 }
 .ls-slider-sec .slick-prev{
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: -40px;
 	transform: translateY(-50%);
 }
 .ls-slider-sec .slick-next{
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	right: -40px;
 	transform: translateY(-50%);
 }
