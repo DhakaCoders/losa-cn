@@ -90,9 +90,7 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-.ls-slider-item:nth-of-type(2n+2) .ls-slider-des a{
-	background: red;
-}
+
 
 .ls-slider-item:hover .ls-slider-sqr-img{
 	transform: scale(1.05);
