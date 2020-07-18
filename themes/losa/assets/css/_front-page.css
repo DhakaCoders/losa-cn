@@ -2,6 +2,9 @@
 	padding-bottom: 85px;
 	position: relative;
 }
+.slider-sec-entry-hbd-logo{
+	text-align: center;
+}
 .ls-slider{
 	margin-left: -25px;
 	margin-right: -25px;
@@ -32,6 +35,12 @@
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
+}
+.ls-slider-angel-img{
+	position: absolute;
+    left: 15px;
+    bottom: 0;
+    right: 15px;
 }
 
 .ls-slider-des{
@@ -81,7 +90,9 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-
+.ls-slider-item:nth-of-type(2n+2) .ls-slider-des a{
+	background: red;
+}
 
 .ls-slider-item:hover .ls-slider-sqr-img{
 	transform: scale(1.05);
