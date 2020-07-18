@@ -1,0 +1,188 @@
+/*
+----------------------------
+ls-about-us-two-part-sec-wrp
+----------------------------
+*/
+.ls-about-us-two-part-sec-wrp{
+	padding-top: 55px;
+	padding-bottom: 90px;
+}
+.ls-about-us-two-part-lft{
+	width: 42%;
+	float: left;
+}
+.ls-about-us-two-part-rgt{
+	width: 58%;
+	float: right;
+	padding-left: 30px;
+}
+.ls-about-us-two-part-img{
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	background-size: cover !important;
+	height: 500px !important;
+}
+.ls-about-us-two-part-dsc > em{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 15px;
+	line-height: 17px;
+	color: #111111;
+	font-weight: 700;
+	position: relative;
+	padding-right: 85px;
+	top: -5px;
+}
+.ls-about-us-two-part-dsc > em:after{
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 75px;
+	height: 2px;
+	background:#ed1b24;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+.ls-about-us-two-part-dsc-title{
+	display:block;
+	font-size: 36px;
+	line-height: 1;
+	color: #171717;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+	font-style: italic;
+}
+.ls-about-us-two-part-dsc-title span{
+	display: inline-block;
+	vertical-align: baseline;
+	color: #ed1b24;
+}
+.ls-about-us-two-part-dsc-title-1{
+	display: block;
+	font-size: 28px;
+	line-height: 1.1;
+	font-weight: 600;
+	color: #171717;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+	margin-top: 26px;
+	font-style: italic;
+}
+.ls-about-us-two-part-dsc p{
+	text-align: justify;
+}
+.ls-about-us-two-part-dsc-title-1 span{
+	display: inline-block;
+	vertical-align: baseline;
+	color: #ed1b24;
+}
+.ls-about-us-two-part-dsc ul{
+	padding-left: 24px;
+}
+.ls-about-us-two-part-dsc ul li{
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 600;
+	padding: 4px 0 4px 24px;
+	position: relative;
+}
+.ls-about-us-two-part-dsc ul li a{
+	display: inline-block;
+	vertical-align: baseline;
+	color: #292929;
+}
+.ls-about-us-two-part-dsc ul li:after{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    text-decoration: inherit;
+    color: #ed1b24;
+    font-size: 13px;
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
+.ls-about-us-two-part-dsc ul li:nth-child(2n+1):after{
+	color: #231f20;
+}
+
+/*
+----------------------
+ Responsive Css
+----------------------
+*/
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.ls-about-us-two-part-dsc-title{
+		font-size: 34px;
+	}
+	.ls-about-us-two-part-dsc-title-1{
+		font-size: 27px;
+	}
+
+}
+
+@media(max-width: 991px){
+	.ls-about-us-two-part-dsc-title{
+		font-size: 32px;
+	}
+	.ls-about-us-two-part-dsc-title-1{
+		font-size: 26px;
+	}
+}
+
+@media(max-width: 767px){
+	.ls-about-us-two-part-lft {
+	    width: 100%;
+	}
+	.ls-about-us-two-part-rgt {
+	    width: 100%;
+	    padding-left: 0;
+	    padding-top: 30px;
+	}
+	.ls-about-us-two-part-sec-wrp {
+	    padding-top: 50px;
+	    padding-bottom: 60px;
+	}
+	.ls-about-us-two-part-dsc-title{
+		font-size: 30px;
+	}
+	.ls-about-us-two-part-dsc-title-1{
+		font-size: 25px;
+	}
+}
+
+@media(max-width: 575px){
+	.ls-about-us-two-part-dsc-title{
+		font-size: 28px;
+	}
+	.ls-about-us-two-part-dsc-title-1{
+		font-size: 24px;
+	}
+
+}
+
+@media(max-width: 479px){
+	.ls-about-us-two-part-dsc-title{
+		font-size: 26px;
+	}
+
+}
+
+@media(max-width: 359px){
+
+}
