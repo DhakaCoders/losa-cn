@@ -1,0 +1,42 @@
+.main-slider-sec{
+	margin-top: -450px;
+}
+.main-slider-sec-inr{
+	padding: 0 0 0 70px;
+	
+}
+.main-slider-sec-inr-cntlr{
+	min-height: 523px;
+	padding: 50px 0 45px 70px;
+}
+.mainSlideDes{
+	color: #fff;
+	width: 64%;
+	padding-right: 55px;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1;
+}
+.mainSlideDes p{
+	line-height: 1.2;
+	margin-bottom: 18px;
+}
+.msd-title{
+	display: block;
+	font-size: 42px;
+	line-height: 1;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	margin-bottom: 25px;
+	border-bottom: 5px solid #ffffff;
+}
+.msd-sub-title{
+	text-transform: uppercase;
+	color: #ed1b24;
+	font-size: 22px;
+	line-height: 1;
+	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	margin-bottom: 5px;
+}
