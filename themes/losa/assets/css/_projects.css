@@ -242,7 +242,7 @@ Recent Project Section
 }
 .rptabs .tabs-bar ul li .av-tab-title a:hover{
    font-weight: 400;
-   font-style: italic;
+   font-style: normal;
 }
 .rptabs .tabs-bar ul li.ui-tabs-active .av-tab-title a{
 	font-weight: 700;
