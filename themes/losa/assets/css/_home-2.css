@@ -11,7 +11,7 @@
 }
 .mainSlideDes{
 	color: #fff;
-	width: 64%;
+	width: 59%;
 	padding-right: 55px;
 	font-weight: 300;
 	font-size: 15px;
@@ -20,6 +20,8 @@
 .mainSlideDes p{
 	line-height: 1.2;
 	margin-bottom: 18px;
+	text-align: justify;
+  	text-justify: inter-word;
 }
 .msd-title{
 	display: block;
@@ -39,4 +41,58 @@
 	font-family: 'Poppins', sans-serif;
 	font-weight: 200;
 	margin-bottom: 5px;
+}
+.msd-btn{
+	padding-top: 22px;
+}
+.msd-btn a{
+	background: #ed1b24;
+	width: 293px;
+	height: 55px;
+	border-radius: 30px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	text-transform: uppercase;
+	border: 2px solid #ed1b24;
+}
+
+.msd-btn a em span{
+	color: #171717;
+	font-size: 17px;
+}
+.msd-btn a em{
+	padding-left: 23px;
+	position: relative;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.msd-btn a i{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	left: 0;
+	transition: all 0.1s;
+	-ms-transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+.msd-btn a:hover{
+	background: transparent;
+	color: #fff;
+}
+.msd-btn a:hover em{
+	padding-left: 0;
+}
+.msd-btn a:hover em span{
+	color: #ed1b24;
+}
+.msd-btn a:hover i{
+	display: none;
 }

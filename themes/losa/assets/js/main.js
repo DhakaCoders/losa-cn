@@ -196,6 +196,6 @@ if (windowWidth <= 767) {
 
   /* End-of-Ranojit*/
 
-    new WOW().init();
+
 
 })(jQuery);
