@@ -16,6 +16,11 @@
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 1;
+	float: left;
+}
+.mainSlideDesRgt{
+	float: right;
+	width: 41%;
 }
 .mainSlideDes p{
 	line-height: 1.2;
@@ -40,7 +45,7 @@
 	display: block;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 200;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 }
 .msd-btn{
 	padding-top: 22px;
@@ -95,4 +100,86 @@
 }
 .msd-btn a:hover i{
 	display: none;
+}
+
+.mainInnerSlider{
+	margin-bottom: 45px;
+}
+
+.mainSlideDesRgt .tab-grd-item-cntlr{
+	clear: none;
+	width: 100%;
+}
+
+.mainSliderRgtDes p{
+	font-weight: 600;
+	font-style: initial;
+	margin-bottom: 0;
+}
+.mainSliderRgtDes p span{
+	text-transform: uppercase;
+	color: #ed1b24;
+}
+.main-slider-sec{
+	position: relative;
+}
+.mainSlider.slick-slider ul.slick-dots{
+	position: absolute!important;
+	right: 190px!important;
+	left: auto!important;
+	width: auto!important;
+	bottom: 0!important;
+}
+.main-slider-sec-rgt-bg{
+	background: #f7f7f7;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+.main-slider-sec-inr{
+	position: relative;
+}
+.mainInnerSlideItem{
+	position: relative;
+}
+.main-slider-sec-rgt-angle{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-bottom: 558px solid #f7f7f7;
+	border-left: 276px solid transparent;
+	border-right: 240px solid #f7f7f7;
+
+}
+
+.mainInnerSlider.slick-slider .slick-next,
+.mainInnerSlider.slick-slider .slick-prev{
+	width: 18px!important;
+	height: 18px!important;
+	background-color:#e85158!important;
+	border-radius: 100% 100%;
+	color: #fff;
+	bottom: -30px!important;
+	transform: initial!important;
+	top: auto!important;
+	position: absolute;
+	z-index: 20;
+}
+.mainInnerSlider.slick-slider .slick-prev{
+	right: 30px!important;
+	left: auto!important;
+	background-image: url(../images/prev-arrow-xs-size.png)!important;
+	background-repeat: no-repeat!important;
+	background-position: center center!important;
+	background-size: 8px auto!important;
+}
+.mainInnerSlider.slick-slider .slick-next{
+	right: 0!important;
+	left: auto!important;
+	background-image: url(../images/next-arrow-xs-size.png)!important;
+	background-repeat: no-repeat!important;
+	background-position: center center!important;
+	background-size: 8px auto!important;
 }

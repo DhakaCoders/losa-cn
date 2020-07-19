@@ -195,6 +195,41 @@ if (windowWidth <= 767) {
 
 
   /* End-of-Ranojit*/
+if( $('.mainSlider').length ){
+    $('.mainSlider').slick({
+      dots: true,
+      infinite: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      draggable: false,
+    });
+}
+if( $('.mainInnerSlider').length ){
+    $('.mainInnerSlider').slick({
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: false,
+      draggable: false,
+    });
+}
+
+var container = $(".container").width();
+var sideWidh = (windowWidth - container) / 2;
+
+var mainSliderSecInrHeight = $('.main-slider-sec-inr').outerHeight();
+$('.main-slider-sec-rgt-angle').css("border-bottom-width", mainSliderSecInrHeight);
+
+$('.main-slider-sec-rgt-bg').css("width", sideWidh);
+
 
 
 
