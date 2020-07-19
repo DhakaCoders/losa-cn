@@ -86,3 +86,25 @@
 	min-height: 140px;
 	border-bottom: 4px solid #ededed;
 }
+
+
+
+/*site map*/
+
+.sitemap{
+	padding: 150px 0;
+}
+.sitemap ul{
+	padding-left: 50px;
+}
+.sitemap ul li{
+	padding: 15px 0;
+}
+.sitemap ul li a{
+	color: #000;
+	font-size: 18px;
+}
+.sitemap ul li a:hover,
+.sitemap ul li a:focus{
+	text-decoration: underline;
+}
