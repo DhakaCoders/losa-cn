@@ -31,6 +31,7 @@
 
 </head>
 <body>
+<div class="bdoverlay"></div>
 <header class="header">
   <div class="container">
       <div class="row">
@@ -42,17 +43,32 @@
               </div>
             </div>
             <div class="hdr-rgt">
-              <div class="hdr-rgt-top-cntlr">
-                <div class="hdr-rgt-top">
-                  <a href="#"><em>(55) 5424-0205</em></a>
+              <div class="hdr-rgt-top">
+                <a href="#">
                   <i><img src="assets/images/hdr-top-tell.png" alt=""></i>
+                  <em>(55) 5424-0205</em></a>
+              </div>
+              <div class="hdr-humberger">
+                <div class="line-icon show-lg">
+                  <span></span>
+                  <span></span>
+                  <span></span>
                 </div>
               </div>
-              <nav class="main-nav">
+              <nav class="main-nav ls-hide-lg">
                 <ul class="reset-list">
                   <li><a class="active" href="#">inicio</a></li>
                   <li><a href="#">Quienes somos</a></li>
-                  <li><a href="#">nuestro trabajo</a></li>
+                  <li class="menu-item-has-children"><a href="#">nuestro trabajo</a>
+                    <ul class="sub-menu">
+                      <li><a class="active" href="#">Acabados</a></li>
+                      <li><a href="#">Albañilería</a></li>
+                      <li><a href="#">Eléctrico</a></li>
+                      <li><a href="#">Herrería</a></li>
+                      <li><a href="#">Mobiliario</a></li>
+                      <li><a href="#">Plomería</a></li>
+                    </ul>
+                  </li>
                   <li><a href="#">blog</a></li>
                   <li><a href="#">contacto</a></li>
                 </ul>
@@ -63,14 +79,41 @@
       </div>
   </div>
 </header>
-<section class="banner-sec inline-bg" style="background: url('assets/images/bnr-bg-img.jpg');">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        
-      </div>
+
+<div class="main-nav-cntlr show-lg">
+  
+  <nav class="xs-main-nav show-lg">
+    <div class="logo">
+      <a href="#"><img src="assets/images/hdr-logo.png"></a>
     </div>
-  </div>
+    <div class="closebtn show-lg">
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="reset-list">
+      <li><a class="active" href="#">inicio</a></li>
+      <li><a href="#">Quienes somos</a></li>
+      <li class="menu-item-has-children"><a href="#">nuestro trabajo</a>
+        <ul class="sub-menu">
+          <li><a class="active" href="#">Acabados</a></li>
+          <li><a href="#">Albañilería</a></li>
+          <li><a href="#">Eléctrico</a></li>
+          <li><a href="#">Herrería</a></li>
+          <li><a href="#">Mobiliario</a></li>
+          <li><a href="#">Plomería</a></li>
+        </ul>
+      </li>
+      <li><a href="#">blog</a></li>
+      <li><a href="#">contacto</a></li>
+    </ul>
+    <div class="hdr-rgt-top">
+      <a href="#">
+        <i><img src="assets/images/hdr-top-tell.png" alt=""></i>
+        <em>(55) 5424-0205</em></a>
+      </div>
+  </nav>
+</div>
+<section class="banner-sec page-bnr inline-bg" style="background: url('assets/images/page-bnr.jpg');">
 </section>
 
 
