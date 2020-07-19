@@ -272,7 +272,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	}
 	.xs-main-nav{
 		position: relative;
-		padding: 30px 40px 28px 40px;
 		overflow-y: scroll;
 	    height: 100%;
 	    position: relative;
@@ -367,6 +366,11 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		height: 100%;
 		position: relative;
 	}
+	nav.xs-main-nav ul{
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-top: 35px;
+	}
 	nav.xs-main-nav ul li{
 		display: block;
 		text-align: center;
@@ -385,8 +389,19 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	}
 	nav.xs-main-nav > ul > li.menu-item-has-children > ul.sub-menu{
 		background: red;
+		margin-left: -40px;
+		margin-right: -40px;
 	}
-	nav.xs-main-nav > ul > li.menu-item-has-children > ul.sub-menu a{
+	nav.xs-main-nav > ul > li.menu-item-has-children > ul.sub-menu > li{
+		margin-left: 35px;
+	    margin-right: 35px;
+	    padding-top: 15px;
+	    padding-bottom: 12px;
+	}
+	nav.xs-main-nav > ul > li.menu-item-has-children > ul.sub-menu > li:last-child{
+		border-bottom: none;
+	}
+	nav.xs-main-nav > ul > li.menu-item-has-children > ul.sub-menu >li a{
 		font-size: 17px;
 		color: #fff;
 		text-transform: uppercase;
@@ -412,14 +427,14 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	/*nav.main-nav .main-nav-inr > ul > li.menu-item-has-children > a.sub-menu-active:before{
 		content: "\f106";
 	}*/
-	nav.main-nav .main-nav-inr > ul > li.menu-item-has-children > ul.sub-menu{
+	/*nav.main-nav .main-nav-inr > ul > li.menu-item-has-children > ul.sub-menu{
 		position: static;
 		transform: initial!important;
-	}
-	nav.main-nav .main-nav-inr > ul > li.menu-item-has-children > ul.sub-menu a{
+	}*/
+	/*nav.main-nav .main-nav-inr > ul > li.menu-item-has-children > ul.sub-menu a{
 		font-size: 14px;
-	}
-	nav.main-nav .main-nav-inr > ul > li.menu-item-has-children > ul.sub-menu {
+	}*/
+	/*nav.main-nav .main-nav-inr > ul > li.menu-item-has-children > ul.sub-menu {
 	    position: static;
 	    display: none;
 	    top: 100%;
@@ -435,20 +450,20 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	    transform-origin: initial;
 	    opacity: 1;
 	    border-top: 3px solid #f4b406;
-	}	
-	nav.main-nav .main-nav-inr > ul > li.menu-item-has-children > ul.sub-menu{
+	}*/	
+	/*nav.main-nav .main-nav-inr > ul > li.menu-item-has-children > ul.sub-menu{
 		background: transparent;
 	}
 	nav.main-nav ul.sub-menu li a{
 		color: #fff;
-	}
-	nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu,
+	}*/
+	/*nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu,
 	nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children > ul.sub-menu{
 		position: static;
 		transform: initial;
 		opacity: 1;
 		transition: initial;
-	}
+	}*/
 	nav.main-nav > ul{
 		float: none;
 	}
@@ -490,7 +505,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		color: #131313;
 	}*/
 
-	extra
+	/*extra
 	nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu:after,
 	nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children ul.sub-menu:after{
 		content: none;
@@ -500,21 +515,33 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		transform: initial!important;
 		padding-top: 20px!important;
 		margin: 0!important;
-	}
-	nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children ul.sub-menu{
+	}*/
+	/*nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children ul.sub-menu{
 		padding-bottom: 0;
 	}
 	nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children ul.sub-menu li:last-child{
 		padding-bottom: 0;
-	}
+	}*/
 	.xs-main-nav .hdr-rgt-top{
 		display: block!important;
 		text-align: center;
 		padding-bottom: 0;
 		padding-top: 40px;
+		padding-bottom: 28px;
 	}
 	.xs-main-nav .hdr-rgt-top a{
 		color: #0c0c0c;
+	}
+	.xs-popup-hdr{
+		background: red;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.xs-main-nav .xs-popup-hdr .log a img{
+		width: 285px!important;
+	}
+	.logo{
+		padding-left: 20px;
 	}
 
 }
