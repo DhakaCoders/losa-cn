@@ -3,10 +3,11 @@
 	background-color: rgba(0,0,0,0.5);
 }
 .ls-form-sec-shadow{
-	min-height: 615px;
+	background: rgba(0,0,0,0.6);
+	height: 100%;
 }
 .ls-form-sec-cntlr{
-
+	padding-bottom: 96px;
 }
 .entry-hdr-cntlr{
 	text-align: center;
