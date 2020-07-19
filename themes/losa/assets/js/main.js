@@ -204,7 +204,7 @@ if( $('.mainSlider').length ){
       speed: 300,
       slidesToShow: 1,
       slidesToScroll: 1,
-      arrows: false,
+      arrows: true,
       draggable: false,
     });
 }
