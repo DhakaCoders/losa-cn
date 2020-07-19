@@ -1,11 +1,13 @@
 .ls-form-sec-wrap{
 	min-height: 615px;
+	background-color: rgba(0,0,0,0.5);
 }
 .ls-form-sec-shadow{
-	min-height: 615px;
+	background: rgba(0,0,0,0.6);
+	height: 100%;
 }
 .ls-form-sec-cntlr{
-
+	padding-bottom: 96px;
 }
 .entry-hdr-cntlr{
 	text-align: center;
@@ -15,6 +17,12 @@
 	display: inline-block;
 	padding-left: 60px;
 	margin-top: 40px;
+}
+.entry-hdr-no-icon .entry-hdr-wrap{
+	padding-left: 0;
+}
+.entry-hdr-no-icon .entry-hdr-title-logo{
+	display: none;
 }
 .entry-hdr-title{
 	text-transform: uppercase;
