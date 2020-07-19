@@ -32,7 +32,7 @@
 	position: relative;
 	color: #ed1b24;
 	margin-bottom: 0;
-	padding-bottom: 9px;
+	padding-bottom: 8px;
 }
 .text-white .entry-hdr-wrap .entry-hdr-title{
 	color: #fff;
@@ -78,7 +78,7 @@
 }
 .entry-hdr-desc{
 	padding-top: 5px;
-	padding-bottom: 23px;
+	padding-bottom: 18px;
 }
 .entry-hdr-desc p{
 	line-height: 1.6;
