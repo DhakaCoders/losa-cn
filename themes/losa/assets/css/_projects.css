@@ -479,7 +479,6 @@ Slider customizations
 
 /*----- max-width 991px -----*/
 @media(max-width: 991px){
-<<<<<<< HEAD
 	.hide-sm{
 		display: none!important;
 	}
@@ -726,9 +725,6 @@ Slider customizations
 	.home1TabListContl .rpTabSlider li:nth-child(2n+1){
 		clear: left;
 	}
-=======
-	
->>>>>>> b7d568560e414590081e19cc09b2487e6af2d5dc
 
 }
 
