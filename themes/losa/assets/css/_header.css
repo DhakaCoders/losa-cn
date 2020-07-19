@@ -215,6 +215,12 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 
 
 @media(max-width: 767px){
+	.ls-hide-lg{
+		display: none!important;
+	}
+	.hdr-rgt-top{
+		display: none!important;
+	}
 
 	body.active-scroll-off{
 		overflow: hidden;
@@ -243,23 +249,20 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	    transition: all 0.3s;
 	    z-index: -1;
 	}
-	.hdr-navbar{
-		min-height: 45px;
-		position: relative;
-	}
+	
 	.main-nav-cntlr{
 		position: fixed;
 	    top: 0;
 	    right: -250px;
 	    bottom: 0;
-	    background-color: #131313;
+	    background-color: #f7f7f7;
 	    background-image: url(../images/xs-pop-up-overlay-logo.png);
 	    background-repeat: no-repeat;
 	    background-position: left top;
-	    color: #ffffff;
-	    font-size: 18px;
+	    color: #0c0c0c;
+	    font-size: 20px;
 	    line-height: 20px;
-	    max-width: 375px;
+	    max-width: 390px;
 	    width:0;
 	    z-index: -1;
 	    opacity: 0;
@@ -267,9 +270,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	    -webkit-transition: all 0.3s;
 	    transition: all 0.3s;
 	}
-	.main-nav{
+	.xs-main-nav{
 		position: relative;
-		padding: 60px 20px 25px 20px;
+		padding: 30px 40px 28px 40px;
 		overflow-y: scroll;
 	    height: 100%;
 	    position: relative;
@@ -284,9 +287,9 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	    margin-top: 9px;
 	}
 	.line-icon span {
-	    height: 2px;
-	    width: 12px;
-	    background: #131313;
+	    height: 3px;
+	    width: 37px;
+	    background: #ffffff;
 	    display: block;
 	    position: absolute;
 	    transition: all 0.5s;
@@ -299,12 +302,14 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	    right: 0px;
 	}
 	.line-icon span:nth-child(2) {
-	    top: 4px;
-	    right: 0px;
+	    top: 9px;
+	    left: 0px;
+	    width: 27px;
 	}
 	.line-icon span:nth-child(3) {
-	    top: 8px;
-	    right: 0px;
+	    top: 18px;
+	    left: 0px;
+	    width: 17px;
 	}
 	.line-icon.active-collapse span:first-child {
 	    width: 35px;
@@ -321,10 +326,10 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	    opacity: 1;
 	    z-index: 9999999;
 	}
-	nav.main-nav .closebtn {
+	nav.xs-main-nav .closebtn {
 	    position: absolute;
-	    width: 24px;
-	    height: 24px;
+	    width: 22px;
+	    height: 22px;
 	    cursor: pointer;
 	    display: inline-block;
 	    vertical-align: top;
@@ -336,22 +341,22 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		-ms-transition: all 0.5s;
 		-webkit-transition: all 0.5s;
 	}
-	nav.main-nav .closebtn span {
+	nav.xs-main-nav .closebtn span {
 	    position: inherit;
 	    left: 0px;
-	    height: 4px;
+	    height: 3px;
 	    width: 100%;
 	    background: #fff;
 	    top: 11px;
 	    display: block;
 	}
-	nav.main-nav .closebtn span:first-child {
+	nav.xs-main-nav .closebtn span:first-child {
 	    transform: rotate(45deg);
 	    -webkit-transform: rotate(45deg);
 	    -moz-transform: rotate(45deg);
 	    -ms-transform: rotate(45deg);
 	}
-	nav.main-nav .closebtn span:last-child {
+	nav.xs-main-nav .closebtn span:last-child {
 	    transform: rotate(-45deg);
 	    -webkit-transform: rotate(-45deg);
 	    -moz-transform: rotate(-45deg);
@@ -362,22 +367,29 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		height: 100%;
 		position: relative;
 	}
-	nav.main-nav ul li{
+	nav.xs-main-nav ul li{
 		display: block;
+		text-align: center;
+	    padding-top: 20px;
+	    padding-bottom: 17px;
+	    border-bottom: 1px solid #dfdcdd;
 	}
-	nav.main-nav .main-nav-inr > ul > li{
-		margin-bottom: 10px;
-		padding-bottom: 5px;
+	
+	nav.xs-main-nav > ul > li > a{
+		font-size: 20px;
+		text-transform: uppercase;
+		color: #0c0c0c;
 	}
-	nav.main-nav > ul > li > a{
-		font-size: 15px;
+	nav.xs-main-nav > ul > li > a.active{
+		color: #ee222b;
 	}
-	nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children ul.sub-menu a{
-		font-size: 14px;
+	nav.xs-main-nav > ul > li.menu-item-has-children > ul.sub-menu{
+		background: red;
 	}
-	nav.main-nav > ul > li > a,
-	nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children ul.sub-menu a{
+	nav.xs-main-nav > ul > li.menu-item-has-children > ul.sub-menu a{
+		font-size: 17px;
 		color: #fff;
+		text-transform: uppercase;
 	}
 	nav.main-nav .main-nav-inr > ul > li.menu-item-has-children:after,
 	nav.main-nav .main-nav-inr > ul > li.menu-item-has-children:focus:after,
@@ -385,7 +397,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		content: none!important;
 	}
 
-	nav.main-nav .main-nav-inr > ul > li.menu-item-has-children > a:before{
+	/*nav.main-nav .main-nav-inr > ul > li.menu-item-has-children > a:before{
 		content: "\f107";
 	    font-family: 'Font Awesome 5 Free';
 	    font-weight: 600;
@@ -396,10 +408,10 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	    position: absolute;
 	    top: 0;
 	    right: -15px;
-	}
-	nav.main-nav .main-nav-inr > ul > li.menu-item-has-children > a.sub-menu-active:before{
+	}*/
+	/*nav.main-nav .main-nav-inr > ul > li.menu-item-has-children > a.sub-menu-active:before{
 		content: "\f106";
-	}
+	}*/
 	nav.main-nav .main-nav-inr > ul > li.menu-item-has-children > ul.sub-menu{
 		position: static;
 		transform: initial!important;
@@ -465,18 +477,18 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		margin-right: 20px;
 	}
 	.line-icon{
-		width: 12px;
-		height: 11px;
+		width: 37px;
+		height: 21px;
 		margin: 0;
 	}
-	.menu-txt{
+	/*.menu-txt{
 		padding-left: 15px;
 		text-transform: uppercase;
 		font-weight: 900;
 		font-size: 16px;
 		line-height: 22px;
 		color: #131313;
-	}
+	}*/
 
 	extra
 	nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu:after,
@@ -494,6 +506,15 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	}
 	nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children ul.sub-menu li:last-child{
 		padding-bottom: 0;
+	}
+	.xs-main-nav .hdr-rgt-top{
+		display: block!important;
+		text-align: center;
+		padding-bottom: 0;
+		padding-top: 40px;
+	}
+	.xs-main-nav .hdr-rgt-top a{
+		color: #0c0c0c;
 	}
 
 }
