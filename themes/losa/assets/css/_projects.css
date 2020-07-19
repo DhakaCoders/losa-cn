@@ -322,7 +322,7 @@ Recent Project Section
 */
 .recent-projects-section{
 	padding-top: 30px;
-	padding-bottom: 45px;
+	padding-bottom: 110px;
 }
 .recent-projects-section .section-hdr{
 	padding-bottom: 0;
@@ -336,7 +336,7 @@ Recent Project Section
 	text-decoration: none;
 }
 .tabs-bar{
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 .tabs-bar ul{
 	margin: 0;
@@ -397,9 +397,11 @@ Recent Project Section
 }
 .tabs-bar ul li .av-tab-title{
 	margin: 0;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 18px;
 	color: #888888;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 }
 .tabs-bar ul li .av-tab-title a{
 	display: inline-block;
@@ -407,7 +409,7 @@ Recent Project Section
 	color: inherit;
 	position: relative;
 	padding-bottom: 5px;
-	font-weight: 600;
+	font-weight: 400;
 }
 .tabs-bar ul li .av-tab-title a:after{
     content: '';
@@ -428,8 +430,8 @@ Recent Project Section
     font-style: italic;
 }
 .rptabs .tabs-bar ul li .av-tab-title a:hover{
-   font-weight: 700;
-   font-style: initial;
+   font-weight: 400;
+   font-style: italic;
 }
 .rptabs .tabs-bar ul li.ui-tabs-active .av-tab-title a{
 	font-weight: 700;
@@ -474,17 +476,19 @@ Recent Project Section
 
 .tab-grd-item-des{
 	margin-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 .tab-grd-item-des h4{
-	font-size: 24px;
+	font-size: 22px;
 	line-height: 26px;
 	margin: 0 0 10px 0;
 	padding-bottom: 7px;
-	color: #0c2052;
+	color: #292929;
 	text-transform: uppercase;
 	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 }
 
 .tab-grd-item-des h4 a{
@@ -508,7 +512,7 @@ Recent Project Section
 	text-align: center;
 }
 .tab-grd-item-des h4 a:hover{
-	color: #efc850;
+	color: #ed1b24;
 }
 .tab-grd-item-des h4 a:hover:before{
 	content: none;
@@ -531,6 +535,7 @@ Recent Project Section
 }
 .tab-grd-item-des p{
 	margin-bottom: 20px;
+	line-height: 1.3;
 }
 
 
@@ -567,7 +572,10 @@ Recent Project Section
 	margin-left: auto;
 	margin-right: auto;
 }
-
+.tab-grd-item-des > a:hover{
+	background: transparent;
+	color: #ed1b24;
+}
 
 /*----  Tab slider customize ----*/
 
@@ -591,6 +599,7 @@ Slider customizations
 }
 .home1TabListContl .rpTabSlider ul.slick-dots{
 	margin: 0!important;
+	margin-top: 10px!important;
 }
 .home1TabListContl .rpTabSlider ul.slick-dots li{
 	clear: initial!important;
