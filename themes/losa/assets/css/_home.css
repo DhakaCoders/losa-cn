@@ -81,10 +81,14 @@
 	padding-bottom: 23px;
 }
 .entry-hdr-desc p{
-
+	line-height: 1.6;
 }
 .entry-hdr-desc p strong{
 	color: #ed1b24;
+}
+.entry-hdr-desc p span{
+	color: #171717;
+	font-weight: 700;
 }
 .ls-form-cntlr{
 	padding-top: 15px;
