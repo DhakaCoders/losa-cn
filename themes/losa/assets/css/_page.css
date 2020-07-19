@@ -80,3 +80,9 @@
 	transform: translateY(-50%);
 }
 
+
+
+.banner-sec.page-bnr{
+	min-height: 140px;
+	border-bottom: 4px solid #ededed;
+}

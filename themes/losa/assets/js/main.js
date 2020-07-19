@@ -174,6 +174,6 @@ if( $('.hmSlider').length ){
 
   /* End-of-Ranojit*/
 
-    new WOW().init();
+
 
 })(jQuery);
