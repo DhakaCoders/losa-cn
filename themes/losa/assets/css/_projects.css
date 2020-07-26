@@ -134,6 +134,8 @@ Recent Project Section
 .recent-projects-section{
 	padding-top: 30px;
 	padding-bottom: 110px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .recent-projects-section .section-hdr{
 	padding-bottom: 0;
@@ -467,6 +469,8 @@ Slider customizations
 @media(max-width: 1199px){
 	.av-container{
 		max-width: 960px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.service-item-wrp ul li {
 		width: 50%;

@@ -14,3 +14,6 @@ Text Domain: losa
 .ls-slider-sec .ls-slide-angel-img{
 	display: none;
 }
+.header,.main-nav-cntlr.show-lg{
+	display: none!important;
+}
