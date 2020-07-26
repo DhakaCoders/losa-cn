@@ -30,7 +30,7 @@
 .slick-next,.slick-prev{
 	height: 88px;
 	width: 44px;
-	position: static;
+	position: absolute;
 	margin: 0;
 	padding: 0;
 }

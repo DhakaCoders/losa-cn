@@ -128,7 +128,7 @@ nav.main-nav > ul > li .active:after{
 nav.main-nav > ul > li .active:hover{
 	color: #171717;
 }
-nav.main-nav > ul > li > a:hover{
+nav.main-nav > ul > li:hover a{
 	color: #171717;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -531,6 +531,12 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	}
 	.xs-main-nav .hdr-rgt-top a{
 		color: #0c0c0c;
+		font-size: 39px;
+		padding-left: 46px;
+	}
+	.xs-main-nav .hdr-rgt-top i{
+		max-width: 28px;
+		margin-top: -5px;
 	}
 	.xs-popup-hdr{
 		background: red;
