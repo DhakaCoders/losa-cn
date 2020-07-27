@@ -190,7 +190,7 @@ if( $('.hmSlider').length ){
 
 
 
-if (windowWidth <= 767) {
+if (windowWidth <= 991) {
   $('.hdr-humberger').on('click', function(e){
     $('.xs-main-nav-cntlr').addClass('opacity-1');
     $('.bdoverlay').addClass('active');
