@@ -483,12 +483,6 @@ Slider customizations
 
 /*----- max-width 991px -----*/
 @media(max-width: 991px){
-	.hide-sm{
-		display: none!important;
-	}
-	.show-sm{
-		display: block!important;
-	}
 	.av-container{
 		max-width: 740px;
 	}
