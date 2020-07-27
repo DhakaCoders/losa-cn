@@ -9,20 +9,13 @@
 	align-items: center;
 }
 .hdr-lft{
-	
-}
-.logo{
-
+   padding: 26px 0 26px;
 }
 .logo a{
-
+	display: inline-block;
 }
 .hdr-rgt{
-	
 	margin-left: auto;
-}
-.hdr-rgt-top-cntlr{
-	
 }
 .hdr-rgt-top{
 	display: flex;
