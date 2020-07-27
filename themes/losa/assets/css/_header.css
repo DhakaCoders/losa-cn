@@ -9,7 +9,7 @@
 	align-items: center;
 }
 .hdr-lft{
-   padding: 26px 0 26px;
+   padding: 28px 0 28px;
 }
 .logo a{
 	display: inline-block;
@@ -237,6 +237,12 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	    transition: all 0.3s;
 	    z-index: -1;
 	}
+	.header-inr{
+		align-items: initial;
+	}
+	.hdr-rgt-top{
+		display: none;
+	}
 	.xs-main-nav-cntlr{
 		position: fixed;
 	    top: 0;
@@ -267,20 +273,15 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	.hdr-humberger{
 		display: flex;
 		align-items: center;
-		margin-top: 3px;
-		margin-right: 20px;
+		margin-top: 15px;
 	}
 	.line-icon{
 		width: 37px;
 		height: 21px;
 		margin: 0;
-	}
-	.line-icon {
-	    cursor: pointer;
+		cursor: pointer;
 	    position: relative;
-	    height: 23px;
-	    max-width: 50px;
-	    margin-top: 9px;
+	    max-width: 37px;
 	}
 	.line-icon span {
 	    height: 3px;
@@ -366,6 +367,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		padding-left: 40px;
 		padding-right: 40px;
 		padding-top: 35px;
+		background: rgba(255,255,255,0.97);
 	}
 	nav.xs-main-nav ul li{
 		display: block;
@@ -380,13 +382,38 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		text-transform: uppercase;
 		color: #0c0c0c;
 		padding-bottom: 12px;
-		display: block;
+		display: inline-block;
 	}
 	nav.xs-main-nav > ul > li > a.active{
 		color: #ee222b;
 	}
+	.menu-item-has-children >a{
+		position: relative;
+		padding-left: 25px;
+	}
+	.menu-item-has-children >a:after{
+		position: absolute;
+		content: "+";
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+		color: #ee2029;
+		margin-top: -5px;
+	}
+	.menu-item-has-children >a.sub-menu-plus:before{
+		position: absolute;
+		content: "-";
+		top: 50%;
+		left: 2px;
+		transform: translateY(-50%);
+		color: #ee2029;
+		margin-top: -7px;
+	}
+	a.sub-menu-plus:after{
+		display: none;
+	}
 	nav.xs-main-nav > ul > li.menu-item-has-children > ul.sub-menu{
-		background: red;
+		background: #ee2029;
 		margin-left: -40px;
 		margin-right: -40px;
 		padding-top: 0;
@@ -419,6 +446,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		padding-bottom: 0;
 		padding-top: 40px;
 		padding-bottom: 28px;
+		background: rgba(255,255,255,0.97);
 	}
 	.xs-main-nav .hdr-rgt-top a{
 		color: #0c0c0c;
@@ -430,7 +458,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		margin-top: -5px;
 	}
 	.xs-popup-hdr{
-		background: red;
 		padding-top: 25px;
 		padding-bottom: 25px;
 	}

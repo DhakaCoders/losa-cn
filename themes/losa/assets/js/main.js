@@ -208,6 +208,7 @@ if (windowWidth <= 991) {
     e.preventDefault();
     //$('li.menu-item-has-children .sub-menu').slideUp(300);
     $(this).toggleClass('sub-menu-active');
+    $(this).toggleClass('sub-menu-plus');
     //$(this).next().slideDown(300);
     $(this).next().slideToggle(300);
 
