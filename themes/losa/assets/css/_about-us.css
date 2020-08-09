@@ -79,34 +79,18 @@ ls-about-us-two-part-sec-wrp
 	vertical-align: baseline;
 	color: #ed1b24;
 }
-.ls-about-us-two-part-dsc ul{
-	padding-left: 24px;
-}
-.ls-about-us-two-part-dsc ul li{
-	font-size: 16px;
-	line-height: 18px;
-	font-weight: 600;
-	padding: 4px 0 4px 24px;
-	position: relative;
-}
+
 .ls-about-us-two-part-dsc ul li a{
 	display: inline-block;
 	vertical-align: baseline;
 	color: #292929;
 }
-.ls-about-us-two-part-dsc ul li:after{
-    content: "\f00c";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    text-decoration: inherit;
-    color: #ed1b24;
-    font-size: 13px;
-    position: absolute;
-    top: 3px;
-    left: 0;
-}
-.ls-about-us-two-part-dsc ul li:nth-child(2n+1):after{
-	color: #231f20;
+
+
+
+.about-ctlr .ls-slider-sec {
+    padding-top: 32px;
+    padding-bottom: 70px;
 }
 
 /*

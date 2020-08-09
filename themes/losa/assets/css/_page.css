@@ -66,6 +66,7 @@
 .ls-slider-sec .slick-slider .slick-dots{
 	position: absolute;
 	bottom: -50px;
+	left: 0;
 }
 .ls-slider-sec .slick-prev{
 	position: absolute;
