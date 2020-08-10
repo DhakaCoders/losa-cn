@@ -22,11 +22,52 @@
 	float: right;
 	width: 41%;
 }
+.main-slide-phone{
+	padding: 22px 0 18px 0;
+	justify-content: center;
+	display: none;
+}
+.main-slide-phone > a{
+	font-size: 38px;
+	color: #0e0e0e;
+	padding-left: 46px;
+}
+.main-slide-phone > i{
+	margin-top: -2px!important;
+}
 .mainSlideDes p{
 	line-height: 1.2;
 	margin-bottom: 18px;
 	text-align: justify;
   	text-justify: inter-word;
+}
+.mainSlideDes-btm-mdshow{
+	position: relative;
+	padding: 29px 0 22px 0;
+	display: none;
+}
+.mainSlideDes-btm-mdshow:after{
+	position: absolute;
+	content: "";
+	width: 90px;
+	height: 1px;
+	background: #f5f5f5;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.mainSlideDes-btm-mdshow:before{
+	position: absolute;
+	content: "";
+	width: 90px;
+	height: 1px;
+	background: #f5f5f5;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.mainSlideDes-btm-mdshow >p{
+	text-align: center;
 }
 .msd-title{
 	display: block;
@@ -223,4 +264,79 @@
 
 
 
+/* responsive */
+@media(max-width: 1300px){
+	.main-slider-sec-inr{
+		padding: 0 30px 0 70px;
+	}
+	.mainSlider.slick-slider .slick-next{
+		right: -25px;
+	}
 
+}
+@media(max-width: 1199px){
+
+}
+@media(max-width: 991px){
+	.main-slider-sec{
+		padding-bottom: 85px;
+	}
+	.main-slider-sec-rgt-angle{
+		top: 0;
+		right: 0;
+		left: 0;
+		border-top: 558px solid #f7f7f7;
+		border-bottom: 276px solid transparent;
+		border-right: 240px solid #f7f7f7;
+	}
+	.main-slider-sec-inr,
+	.main-slider-sec-inr-cntlr{
+		padding: 0;
+	}
+	.mainSliderRgtDes{
+		display: none;
+	}
+	.mainSlideDesRgt{
+		width: 100%;
+		float: initial;
+	}
+	.mainSlideDes{
+		width: 100%;
+		float: initial;
+		position: relative;
+		text-align: center;
+		padding-right: 0;
+		padding-bottom: 48px;
+	}
+	.msd-btn{
+		position: absolute;
+		bottom: -27px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.mainSlideDes-btm-mdshow{
+		display: block;
+	}
+	.main-slide-phone{
+		display: block;
+		text-align: center;
+	}
+	.mainSlider.slick-slider ul.slick-dots{
+		right: 0!important;
+		left: 50%!important;
+		transform: translateX(-50%);
+		bottom: -65px!important;
+	}
+}
+@media(max-width: 767px){
+
+}
+@media(max-width: 639px){
+
+}
+@media(max-width: 575px){
+
+}
+@media(max-width: 479px){
+
+}
