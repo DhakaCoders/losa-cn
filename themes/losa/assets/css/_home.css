@@ -1,9 +1,8 @@
 .ls-form-sec-wrap{
 	min-height: 615px;
-	background-color: rgba(0,0,0,0.5);
 }
 .ls-form-sec-shadow{
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.7);
 	height: 100%;
 }
 .ls-form-sec-cntlr{
@@ -122,6 +121,7 @@
 	background: #f5f5f5;
 	border-radius: 5px;
 	width: 100%;
+	font-size: 14px;
 	padding: 11px 0 11px 41px;
 }
 .ls-form-input-field textarea{
