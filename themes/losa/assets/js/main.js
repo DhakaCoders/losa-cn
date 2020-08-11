@@ -211,6 +211,7 @@ if (windowWidth <= 991) {
     $(this).toggleClass('sub-menu-plus');
     //$(this).next().slideDown(300);
     $(this).next().slideToggle(300);
+    $(this).css('color', '#ee2029');
 
   });
 }

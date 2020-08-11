@@ -37,32 +37,32 @@ Desktop---->>>
 Responsive--------------------->>>
 
 Menu popup---
-1. https://prnt.sc/txnyif'
+1. https://prnt.sc/txnyif'---done
 	click korle red color hobe
 
-2. https://prnt.sc/txnzmf
+2. https://prnt.sc/txnzmf----done
 	sub menu ber hole ai border ta buja jabena
 
 3. https://prnt.sc/txo070
 	ai bg ta missing
 
-4. https://prnt.sc/txo0wy
+4. https://prnt.sc/txo0wy----done
 	last li ar porer gap ta kom lagteche, besi hobe
 
-5. https://prnt.sc/txo1ql
+5. https://prnt.sc/txo1ql----done
 	ata center a hobe r border borabor left and right mile jabe
 
-6. https://prnt.sc/txo2md
+6. https://prnt.sc/txo2md----done
 	break hoye geche, ata upor thake 320 pojonto ak line ai rakhte hobe. 
 
 
 
 Home ----
 
-1. https://prnt.sc/txo4k9
+1. https://prnt.sc/txo4k9----done
 	br ta 767 te koro, upore text ar line ta boro hoye jasche , kharap dekhasche
 
-2. https://prnt.sc/txo6k9
+2. https://prnt.sc/txo6k9---done
 	479px a arrow gulo aktu choto koro , then left and right ar padding komao,
 	bcoz middle ar content gulo khub chapa chapi hoye geche
 

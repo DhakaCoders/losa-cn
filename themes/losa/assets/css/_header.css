@@ -373,7 +373,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		display: block;
 		text-align: center;
 	    padding-top: 20px;
-	    padding-bottom: 5px;
 	    border-bottom: 1px solid #dfdcdd;
 	}
 	
@@ -381,7 +380,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		font-size: 20px;
 		text-transform: uppercase;
 		color: #0c0c0c;
-		padding-bottom: 12px;
+		padding-bottom: 18px;
 		display: inline-block;
 	}
 	nav.xs-main-nav > ul > li > a.active{
@@ -422,7 +421,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		margin-left: 35px;
 	    margin-right: 35px;
 	    padding-top: 10px;
-	    padding-bottom: 8px;
+	    padding-bottom: 10px;
 	    border-bottom: 1px solid #f1424a;
 	}
 	nav.xs-main-nav > ul > li.menu-item-has-children > ul.sub-menu > li:last-child{
@@ -451,11 +450,13 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	.xs-main-nav .hdr-rgt-top a{
 		color: #0c0c0c;
 		font-size: 39px;
-		padding-left: 46px;
+		padding-left: 50px;
 	}
 	.xs-main-nav .hdr-rgt-top i{
 		max-width: 28px;
-		margin-top: -5px;
+		margin-top: 0px;
+		position: absolute;
+		left: 4px;
 	}
 	.xs-popup-hdr{
 		padding-top: 25px;
@@ -587,3 +588,22 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	
 
 }
+
+@media(max-width: 479px){
+	.xs-main-nav .hdr-rgt-top a {
+	    font-size: 34px;
+	}
+	.xs-main-nav .hdr-rgt-top i{
+		top: -4px;
+	}
+}
+@media(max-width: 359px){
+	.xs-main-nav .hdr-rgt-top a {
+	    font-size: 28px;
+	}
+	.xs-main-nav .hdr-rgt-top i {
+	    top: -10px;
+	}
+}
+
+
