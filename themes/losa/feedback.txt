@@ -1,0 +1,77 @@
+Home
+-------------------------
+Desktop---->>>
+
+1. https://prnt.sc/txn7e2
+	ai class ta hobe na menu te,
+	li te dite hobe .current-menu-item
+
+2. https://prnt.sc/txnjog
+	placeholder a opacity 1 bolte hobe
+
+3. https://prnt.sc/txnkk3
+	input type submit hobe
+
+
+4. https://prnt.sc/txnnhb
+	section bg ta mileni , r aktu dark hobe akta layer badh poreche maybe.
+
+5. https://prnt.sc/txnohs
+	focus a effect lagbe 
+
+
+About
+-------------------------
+Desktop---->>>
+
+1. https://prnt.sc/txnvmp
+	link hobena , aikhane jeno common ul li ar design ta pay
+
+
+2. home page ar fix ses hole ai page a ja ja common ache update korte hobe
+
+
+
+
+
+Responsive--------------------->>>
+
+Menu popup---
+1. https://prnt.sc/txnyif'
+	click korle red color hobe
+
+2. https://prnt.sc/txnzmf
+	sub menu ber hole ai border ta buja jabena
+
+3. https://prnt.sc/txo070
+	ai bg ta missing
+
+4. https://prnt.sc/txo0wy
+	last li ar porer gap ta kom lagteche, besi hobe
+
+5. https://prnt.sc/txo1ql
+	ata center a hobe r border borabor left and right mile jabe
+
+6. https://prnt.sc/txo2md
+	break hoye geche, ata upor thake 320 pojonto ak line ai rakhte hobe. 
+
+
+
+Home ----
+
+1. https://prnt.sc/txo4k9
+	br ta 767 te koro, upore text ar line ta boro hoye jasche , kharap dekhasche
+
+2. https://prnt.sc/txo6k9
+	479px a arrow gulo aktu choto koro , then left and right ar padding komao,
+	bcoz middle ar content gulo khub chapa chapi hoye geche
+
+
+
+
+
+
+
+
+
+
