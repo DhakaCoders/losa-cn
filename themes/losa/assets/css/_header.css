@@ -363,27 +363,30 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		height: 100%;
 		position: relative;
 	}
-	nav.xs-main-nav ul{
+	.nav-menu-bg{
+		background: url('../images/xs-nav-bg2.jpg');
+	}
+	.nav-menu-bg ul{
 		padding-left: 40px;
 		padding-right: 40px;
 		padding-top: 35px;
-		background: rgba(255,255,255,0.97);
+		/*background: url('../images/xs-nav-bg2.jpg');*/
 	}
-	nav.xs-main-nav ul li{
+	.nav-menu-bg ul li{
 		display: block;
 		text-align: center;
 	    padding-top: 20px;
 	    border-bottom: 1px solid #dfdcdd;
 	}
 	
-	nav.xs-main-nav > ul > li > a{
+	.nav-menu-bg > ul > li > a{
 		font-size: 20px;
 		text-transform: uppercase;
 		color: #0c0c0c;
 		padding-bottom: 18px;
 		display: inline-block;
 	}
-	nav.xs-main-nav > ul > li > a.active{
+	.nav-menu-bg > ul > li > a.active{
 		color: #ee222b;
 	}
 	.menu-item-has-children >a{
@@ -411,23 +414,23 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	a.sub-menu-plus:after{
 		display: none;
 	}
-	nav.xs-main-nav > ul > li.menu-item-has-children > ul.sub-menu{
+	.nav-menu-bg > ul > li.menu-item-has-children > ul.sub-menu{
 		background: #ee2029;
 		margin-left: -40px;
 		margin-right: -40px;
 		padding-top: 0;
 	}
-	nav.xs-main-nav > ul > li.menu-item-has-children > ul.sub-menu > li{
+	.nav-menu-bg > ul > li.menu-item-has-children > ul.sub-menu > li{
 		margin-left: 35px;
 	    margin-right: 35px;
 	    padding-top: 10px;
 	    padding-bottom: 10px;
 	    border-bottom: 1px solid #f1424a;
 	}
-	nav.xs-main-nav > ul > li.menu-item-has-children > ul.sub-menu > li:last-child{
+	.nav-menu-bg > ul > li.menu-item-has-children > ul.sub-menu > li:last-child{
 		border-bottom: none;
 	}
-	nav.xs-main-nav > ul > li.menu-item-has-children > ul.sub-menu >li a{
+	.nav-menu-bg > ul > li.menu-item-has-children > ul.sub-menu >li a{
 		font-size: 17px;
 		color: #fff;
 		text-transform: uppercase;
@@ -445,7 +448,6 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		padding-bottom: 0;
 		padding-top: 40px;
 		padding-bottom: 28px;
-		background: rgba(255,255,255,0.97);
 	}
 	.xs-main-nav .hdr-rgt-top a{
 		color: #0c0c0c;
