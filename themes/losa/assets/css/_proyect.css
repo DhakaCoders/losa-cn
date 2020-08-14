@@ -1,0 +1,206 @@
+.pt-pg-entry-title-inr{
+	padding-left: 45px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	position: relative;
+}
+.pt-pg-entry-title-inr:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 8px;
+	width: 34px;
+	height: 34px;
+	background: url('../images/pt-pg-entry-title.png');
+}
+.pt-pg-entry-title-inr h4{
+	font-size: 26px;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	color: #131313;
+	margin-bottom: 0;
+	border-bottom: 4px solid #ed1b24;
+}
+.pt-pg-entry-title-inr h4 span{
+	color: #ed1b24;
+}
+.pt-xs-ls-form{
+	position: relative;
+	padding: 0 15px;
+}
+.pt-xs-ls-form-bg{
+	background: rgba(0,0,0,0.8);
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+.pt-xs-ls-form .ls-form-sec-cntlr{
+	z-index: 2;
+	position: relative;
+}
+.pt-xs-ls-form .ls-form-sec-cntlr{
+	padding-bottom: 45px;
+}
+.pt-xs-ls-form .text-white .entry-hdr-desc{
+	padding-top: 30px;
+}
+.pt-xs-ls-form .text-white .entry-hdr-wrap .entry-hdr-title{
+	font-size: 35px;
+}
+.pt-xs-ls-form .ls-form-input-field{
+	padding: 0;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.pt-xs-ls-form .ls-form-btn{
+	margin-top: 42px;
+}
+.pt-pg-right-mdl-entry-title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.pt-pg-right-mdl-entry-title .entry-hdr-wrap{
+	margin-top: 56px;
+}
+.pt-pg-right-mdl-entry-title .entry-hdr-wrap .entry-hdr-title{
+	font-size: 46px;
+}
+.pt-pg-right-mdl-entry-title .entry-hdr-wrap .entry-hdr-sub-title{
+	font-size: 17px;
+}
+.hh-accordion-hdr{
+	position: relative;
+    width: 210px;
+    padding: 12px 0px 12px 0px;
+    font-size: 20px;
+    color: #FFF;
+    background: #171717;
+    border-left: 3px solid #ed1b24;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.hh-accordion-hdr:hover{
+	background: #ed1b24;
+    border-color: #171717;
+}
+.hh-accordion-hdr:hover:after{
+	background: #ed1b24;
+}
+.hh-accordion-hdr:hover:before{
+	background: #171717;
+}
+.hh-accordion-hdr-img {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.hh-accordion-hdr:after{
+	content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #171717;
+    transform-origin: bottom left;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+}
+.hh-accordion-hdr:before{
+	content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 10px;
+    z-index: -1;
+    background: #ed1b24;
+    transform-origin: bottom left;
+    -ms-transform: skew(-18deg, 0deg);
+    -webkit-transform: skew(-18deg, 0deg);
+    transform: skew(-18deg, 0deg);
+}
+.hh-accordion-title{
+	margin-bottom: 0;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+	padding-left: 50px;
+	position: relative;
+}
+.hh-accordion-title:after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 2px;
+	background: url('../images/top-arrow.png');
+	width: 16px;
+	height: 10px;
+}
+.hh-accordion-title:hover:after{
+	content: none;
+}
+.hh-accordion-title:hover:before{
+	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 2px;
+	background: url('../images/btm-arrow.png');
+	width: 16px;
+	height: 10px;
+}
+.hh-accordion-des{
+	padding-left: 11px;
+}
+.hh-accordion-des > div{
+	padding: 11px 0;
+}
+.hh-accordion-des > div > ul > li{
+	padding: 7px 0;
+	padding-left: 12px;
+}
+.hh-accordion-des > div > ul > li > a{
+	display: inline-block;
+	padding-bottom: 4px;
+	font-size: 15px;
+	border-bottom: 1px solid transparent;
+	color: #171717;
+}
+.hh-accordion-des > div > ul > li:hover > a{
+	border-color: #ededed;
+	color: #ed1b24;
+}
+.hh-accordion-des > div > ul > li > a:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	background: url('../images/accourdion-list-active-arrow.png');
+	height: 8px;
+	width: 5px;
+}
+.hh-accordion-des > div > ul > li:hover > a:before{
+	content: none;
+}
+.hh-accordion-des > div > ul > li:hover > a:after{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	background: url('../images/accourdion-list-arrow.png');
+	height: 8px;
+	width: 5px;
+}
