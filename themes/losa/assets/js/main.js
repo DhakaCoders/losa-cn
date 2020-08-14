@@ -265,6 +265,50 @@ if( $('.mainInnerSlider').length ){
     });
 }
 
+if( $('.blogGrdItemsSlider').length ){
+  $('.blogGrdItemsSlider').slick({
+      dots: true,
+      slidesPerRow: 3,
+      arrows: false,
+      rows: 2,
+      adaptiveHeight: true,
+      responsive: [
+      {
+        breakpoint: 478,
+        settings: {
+          slidesPerRow: 1,
+          rows: 1,
+        }
+      }
+    ]
+  });
+}
+
+
+
+if( $('#ar-slider').length ){
+    $('#ar-slider').slick({
+      dots: true,
+      infinite: false,
+      arrows: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+}
+
+
+if( $('#blog-slider-top').length ){
+    $('#blog-slider-top').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      draggable: false,
+    });
+}
 
 
 
