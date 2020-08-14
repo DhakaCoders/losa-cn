@@ -159,12 +159,21 @@
     padding: 7.5px 66px 7.5px 66px;
     background: #ed1b24;
     font-size: 19px;
+    cursor: pointer;
     border-radius: 50px;
     border: 2px solid #ed1b24;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
 }
-.ls-form-btn a:hover{
+.ls-form-btn input:hover{
 	color: #ed1b24;
 	background: #fff;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
 }
 .ls-layout-grid-innr{
 	padding-top: 38px;

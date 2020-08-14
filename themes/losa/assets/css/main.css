@@ -21,12 +21,14 @@
 
 
 
-
-/* End-of-shariful */
+@import url('_proyect.css');
+/* End-of-Noyon */
 
 
 
 
 @import url('_home-2.css');
 @import url('_projects.css');
+@import url('_blog.css');
+@import url('_blog-single.css');
 /* End-of-Ranojit */
