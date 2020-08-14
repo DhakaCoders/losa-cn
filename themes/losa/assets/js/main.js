@@ -279,6 +279,31 @@ if( $('.blogGrdItemsSlider').length ){
 
 
 
+if( $('#ar-slider').length ){
+    $('#ar-slider').slick({
+      dots: true,
+      infinite: false,
+      arrows: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+}
+
+
+if( $('#blog-slider-top').length ){
+    $('#blog-slider-top').slick({
+      dots: true,
+      arrows: false,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      draggable: false,
+    });
+}
+
+
 
 var container = $(".container").width();
 var sideWidh = (windowWidth - container) / 2;
