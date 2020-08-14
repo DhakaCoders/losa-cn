@@ -258,6 +258,25 @@ if( $('.mainInnerSlider').length ){
     });
 }
 
+if( $('.blogGrdItemsSlider').length ){
+  $('.blogGrdItemsSlider').slick({
+      dots: true,
+      slidesPerRow: 3,
+      arrows: false,
+      rows: 2,
+      adaptiveHeight: true,
+      responsive: [
+      {
+        breakpoint: 478,
+        settings: {
+          slidesPerRow: 1,
+          rows: 1,
+        }
+      }
+    ]
+  });
+}
+
 
 
 
