@@ -332,6 +332,7 @@ Slider customizations
 .ar-slide-h a{
 	color: #333333;
 	text-decoration: none;
+	font-weight: 700;
 }
 
 .ar-slide-h a:hover{
