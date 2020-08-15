@@ -5,7 +5,8 @@
 .losa-contact-entry-hdr{
 	padding-bottom: 10px;
 }
-.losa-contact-entry-hdr-title{
+.losa-contact-entry-hdr-title,
+.losa-xs-contact-entry-hdr-title{
 	display: block;
 	font-size: 26px;
 	line-height: 1;
@@ -15,7 +16,8 @@
 	border-bottom: 4px solid #ed1b24;
 	position: relative;
 }
-.losa-contact-entry-hdr-title i{
+.losa-contact-entry-hdr-title i,
+.losa-xs-contact-entry-hdr-title i{
 	position: absolute;
 	top: 0;
 	left: -35px;
@@ -33,7 +35,7 @@
 
 
 .losa-contact-form-sec{
-	padding-top: 25px;
+	padding-top: 20px;
 	padding-bottom: 260px;
 }
 .losa-contact-left-form{
@@ -45,13 +47,13 @@
 	float: right;
 	width: 31.1965%;
 	padding-left: 60px;
-	padding-top: 35px;
+	padding-top: 15px;
 }
 
 
 .losa-inputfield {
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .losa-inputfields-row.diveder2{
 	margin-left: -18px;
@@ -67,7 +69,7 @@
 
 .losa-inputfield label{
 	font-size: 14px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	color: #292929;
 	text-transform: capitalize;
 }
@@ -91,6 +93,11 @@
 	background: #f7f7f7;
 	border: 1px solid #f7f7f7;
 }
+.losa-inputfield input[type=text]:focus,
+.losa-inputfield input[type=email]:focus,
+.losa-inputfield textarea:focus{
+	border: 1px solid #ddd;
+}
 
 .cnt-btn{
 	text-align: right;
@@ -107,14 +114,23 @@
 	font-weight: 700;
 	cursor: pointer;
 	padding: 15px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+}
+.cnt-btn input[type=submit]:hover{
+	background: transparent;
+	color: #ed1b24;
 }
 
 
-.losa-contact-rgtsidebar-logo{
+.losa-contact-rgtsidebar-logo,
+.losa-xs-contact-log{
 	background: #fd0002;
 	padding: 8px 15px 16px 16px;
 }
-.losa-contact-rgtsidebar-logo a{
+.losa-contact-rgtsidebar-logo a,
+.losa-xs-contact-log a{
 	display: inline-block;
 	vertical-align: baseline;
 }
@@ -122,12 +138,14 @@
 .losa-contact-rgtsidebar-des{
 	padding-top: 15px;
 }
-.losa-contact-rgtsidebar-des p{
+.losa-contact-rgtsidebar-des p,
+.losa-xs-contact-des p{
 	margin-bottom: 25px;
 	font-size: 16px;
 	text-align: justify;
 }
-.losa-contact-rgtsidebar-des p strong{
+.losa-contact-rgtsidebar-des p strong,
+.losa-xs-contact-des p strong{
 	font-weight: 700;
 }
 
@@ -135,10 +153,10 @@
 .losa-contact-rgtsidebar-msg,
 .losa-contact-rgtsidebar-tel{
 	padding-left: 28px;
-	padding-bottom: 15px;
+	padding-bottom: 25px;
 }
 .losa-contact-rgtsidebar-msg{
-	padding-bottom: 55px;
+	padding-bottom: 60px;
 }
 .losa-contact-rgtsidebar-location a,
 .losa-contact-rgtsidebar-msg a,
@@ -148,6 +166,14 @@
 	vertical-align: baseline;
 	color: #292929;
 	position: relative;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+}
+.losa-contact-rgtsidebar-location a:hover,
+.losa-contact-rgtsidebar-msg a:hover,
+.losa-contact-rgtsidebar-tel a:hover{
+	color: #ed1b24;
 }
 .losa-contact-rgtsidebar-location a i,
 .losa-contact-rgtsidebar-msg a i,
@@ -161,4 +187,185 @@
 }
 .losa-contact-rgtsidebar-tel a i{
 	top: -15px;
+}
+
+
+.losa-xs-contact-log{
+	margin-top: 32px;
+}
+.losa-xs-contact-des{
+	margin-top: 30px;
+}
+
+.losa-xs-contact-entry-hdr,
+.losa-xs-contact-log,
+.losa-xs-contact-des{
+	display: none;
+}
+
+.losa-xs-contact-location,
+.losa-xs-contact-email,
+.losa-xs-contact-tel{
+	max-width: 365px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 85px 15px 85px;
+	border: 2px solid #f7f7f7;
+	margin-bottom: 18px;
+	text-align: center;
+}
+.losa-xs-contact-location a,
+.losa-xs-contact-email a,
+.losa-xs-contact-tel a{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 19px;
+	color: #292929;
+	position: relative;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	padding-top: 90px;
+	position: relative;
+}
+.losa-xs-contact-location a:hover,
+.losa-xs-contact-email a:hover,
+.losa-xs-contact-tel a:hover{
+	color: #ed1b24;
+}
+.losa-xs-contact-location a i,
+.losa-xs-contact-email a i,
+.losa-xs-contact-tel a i{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.losa-xs-contact-location,
+.losa-xs-contact-email,
+.losa-xs-contact-tel{
+	display: none;
+}
+
+.losa-xs-contact-log{
+	max-width: 300px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 32px;
+}
+
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+	.losa-contact-form-sec {
+	    padding-bottom: 220px;
+	}
+}
+
+@media(max-width: 1199px){
+	.losa-contact-entry-hdr-title{
+		font-size: 24px;
+	}
+	.losa-contact-rgtsidebar{
+		padding-left: 35px;
+	}
+	.losa-contact-form-sec {
+	    padding-bottom: 181px;
+	}
+
+}
+
+@media(max-width: 991px){
+	.losa-contact-entry-hdr,
+	.losa-contact-rgtsidebar-logo,
+	.losa-contact-rgtsidebar-des{
+		display: none;
+	}
+	.losa-contact-left-form {
+	    width: 100%;
+	    padding-right: 0;
+	}
+	.losa-contact-rgtsidebar {
+	    padding-left: 0;
+	    width: 100%;
+	}
+	.losa-xs-contact-entry-hdr,
+	.losa-xs-contact-log,
+	.losa-xs-contact-des{
+		display: block;
+	}
+	.losa-contact-form-sec {
+	    padding-bottom: 130px;
+	}
+	
+}
+
+@media(max-width: 767px){
+	.losa-xs-contact-entry-hdr-title{
+		font-size: 22px;
+	}
+	.losa-inputfields-row.diveder2 {
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+	.diveder2 .losa-inputfield {
+	    width: 100%;
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.cnt-btn {
+	    text-align: center;
+	}
+	.losa-contact-rgtsidebar{
+		padding-top: 42px;
+	}
+	.losa-contact-rgtsidebar-location,
+	.losa-contact-rgtsidebar-msg,
+	.losa-contact-rgtsidebar-tel{
+		display: none;
+	}
+	.losa-xs-contact-location,
+	.losa-xs-contact-email,
+	.losa-xs-contact-tel{
+		display: block;
+	}
+	.losa-contact-form-sec {
+	    padding-bottom: 70px;
+	}
+}
+
+@media(max-width: 575px){
+	.losa-contact-form-sec {
+	    padding-bottom: 20px;
+	}
+	.losa-xs-contact-entry-hdr-title {
+	    font-size: 20px;
+	}
+
+}
+
+@media(max-width: 479px){
+	.losa-xs-contact-location, 
+	.losa-xs-contact-email, 
+	.losa-xs-contact-tel{
+		padding: 10px 60px 15px 60px;
+	}
+	.losa-xs-contact-location a, 
+	.losa-xs-contact-email a, 
+	.losa-xs-contact-tel a{
+		font-size: 16px;
+	}
+
+}
+
+@media(max-width: 359px){
+
 }
