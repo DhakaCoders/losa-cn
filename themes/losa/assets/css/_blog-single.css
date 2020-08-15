@@ -12,7 +12,7 @@ blog-single-content-wrp
 .page-top-entry-hdr i{
 	position: absolute;
 	left: 0;
-	top: 0;
+	top: 2px;
 }
 .blog-single-rgt-sidebar-wrp .entry-hdr-cntlr{
 	margin-bottom: 20px;
