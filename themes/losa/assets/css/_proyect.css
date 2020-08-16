@@ -233,16 +233,16 @@
 	font-weight: 300;
 	font-style: italic;
 }
-.pt-pg-right-desc{
+.pt-pg-left-desc{
 	padding-top: 100px;
 }
-.pt-pg-right-desc p:nth-of-type(1){
+.pt-pg-left-desc p:nth-of-type(1){
 	margin-bottom: 35px;
 }
-.pt-pg-right-desc p strong{
+.pt-pg-left-desc p strong{
 	font-weight: 700;
 }
-.pt-pg-right-desc > ul{
+.pt-pg-left-desc > ul{
 	padding-top: 12px;
 	padding-bottom: 35px;
 }
