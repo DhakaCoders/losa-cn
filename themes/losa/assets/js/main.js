@@ -229,7 +229,7 @@ if( $('.hmSlider').length ){
 
 
 
-  var $slider = $('.ptMainslider');
+/*  var $slider = $('.ptMainslider');
 
   if ($slider.length) {
     var currentSlide;
@@ -253,7 +253,18 @@ if( $('.hmSlider').length ){
     });
 
     $slider.slick();
-  }
+  }*/
+
+
+  $('.ptMainslider').slick({
+    prevArrow: $('.slick-arrows .pt-slick-prev'),
+    nextArrow: $('.slick-arrows .pt-slick-next'),
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: true,
+  });
+  $(".ptMainslider").slick("getSlick").slideCount;
   /* End-of-Noyon*/
 
 

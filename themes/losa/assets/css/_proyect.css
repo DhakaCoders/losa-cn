@@ -150,6 +150,50 @@
 	top: 50%;
 	transform: translateY(-50%);
 }
+.slick-arrows-wrap{
+	position: absolute;
+	bottom: -22px;
+	right: 140px;
+	z-index: 11;
+}
+.slick-arrows-cntlr{
+	position: relative;
+	width: 93px;
+	height: 47px;
+}
+.slick-arrows-skew{
+	transform: skew(-30deg);
+	background: #ed1b24;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.slick-arrows {
+    position: relative;
+    padding-top: 12px;
+    padding-left: 17px;
+}
+.pt-slick-prev{
+	float: left;
+	background: url('../images/pt-slick-next-arrow.png');
+	height: 24px;
+	width: 13px;
+	transform: rotate(180deg);
+	cursor: pointer;
+}
+.pt-slick-next{
+	float: left;
+	margin-left: 33px;
+	background: url('../images/pt-slick-next-arrow.png');
+	height: 24px;
+	width: 13px;
+	cursor: pointer;
+}
+
+
+
 
 .pt-slider-cntlr .slider .slick-prev{
 	position: absolute;
