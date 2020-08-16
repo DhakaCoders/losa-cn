@@ -1,6 +1,6 @@
 .slick-slider ul.slick-dots{
 	position: static;
-	height: 15px;
+	height: auto;
 	line-height: 0;
 	padding: 0 20px!important;
 }
@@ -8,7 +8,7 @@
 	width: 15px!important;
 	height: 15px!important;
 	position: static;
-	margin: 0 6px;
+	margin: 0 6px 8px;
 	padding: 0!important;
 	background: url('../images/dots-btn.png');
 	background-size: 100% 100%!important;

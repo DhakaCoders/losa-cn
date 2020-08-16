@@ -478,6 +478,10 @@ Slider customizations
 	.service-box p br{
 		display: none;
 	}
+	.tab-grd-item-des{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }
 
 /*----- max-width 991px -----*/
@@ -529,6 +533,9 @@ Slider customizations
 	}
 	.home1TabListContl .rpTabSlider li:nth-child(2n+1){
 		clear: left;
+	}
+	.tab-grd-item-des h4{
+		font-size: 19px;
 	}
 
 
@@ -665,6 +672,9 @@ Slider customizations
 	}
 	.tabs-bar ul li .av-tab-title{
 		font-size: 17px;
+	}
+	.tab-grd-item-cntlr{
+		width: 100%;
 	}
 }
 
