@@ -1,3 +1,26 @@
 PROYECT-CLICK
 -------------------------
 Desktop---->>>
+
+1. https://prnt.sc/u0elj4
+	ai icon ta img tag a hobe, 
+	i tag ar vitore img tag, onno kono page a amon thake fix korte hobe.
+
+	design idea ta blog-click.html paba
+
+2. https://prnt.sc/u0en5k
+	page name hobe proyect-click.html
+
+3. https://prnt.sc/u0epa0
+	class ar name change hobe
+	i) .ptMainslider  aikhane MainSlider bola jabena, bcoz akta website main slider bolte home page a banner a j slider ta thake setake bujay
+	ii) .slider__item   aikhane change kore .slide-item amon dite hobe , tobe .slide-item ar prefix a parent slider ar name onusare name ta hobe
+
+4. https://prnt.sc/u0eqgm
+	img tag badh diye akta div nao and div ar bg te use hobe img ta.
+
+
+5.https://prnt.sc/u0equj
+	ai gap ta besi mone hosche
+
+6. 
