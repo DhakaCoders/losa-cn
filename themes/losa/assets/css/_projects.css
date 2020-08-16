@@ -468,7 +468,6 @@ Slider customizations
 /*----- max-width 1199px -----*/
 @media(max-width: 1199px){
 	.av-container{
-		max-width: 960px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -483,9 +482,6 @@ Slider customizations
 
 /*----- max-width 991px -----*/
 @media(max-width: 991px){
-	.av-container{
-		max-width: 740px;
-	}
 	.tab-con-wrap ul.rp-tab-slide-item li{
 		width: 50%;
 	}
