@@ -224,38 +224,6 @@ if( $('.hmSlider').length ){
     return false;
   });
 
-
-
-
-
-
-/*  var $slider = $('.ptMainslider');
-
-  if ($slider.length) {
-    var currentSlide;
-    var slidesCount;
-    var sliderCounter = document.createElement('div');
-    sliderCounter.classList.add('slider__counter');
-
-    var updateSliderCounter = function(slick, currentIndex) {
-      currentSlide = slick.slickCurrentSlide() + 1;
-      slidesCount = slick.slideCount;
-      $(sliderCounter).text(currentSlide + ' de ' +slidesCount)
-    };
-
-    $slider.on('init', function(event, slick) {
-      $slider.append(sliderCounter);
-      updateSliderCounter(slick);
-    });
-
-    $slider.on('afterChange', function(event, slick, currentSlide) {
-      updateSliderCounter(slick, currentSlide);
-    });
-
-    $slider.slick();
-  }*/
-
-
   $('.ptMainslider').slick({
     prevArrow: $('.slick-arrows .pt-slick-prev'),
     nextArrow: $('.slick-arrows .pt-slick-next'),
@@ -266,14 +234,10 @@ if( $('.hmSlider').length ){
     dots: true,
     dotsClass: 'custom_paging',
     customPaging: function (slider, i) {
-        //FYI just have a look at the object to find available information
-        //press f12 to access the console in most browsers
-        //you could also debug or look in the source
         console.log(slider);
-        return  (i + 1) + 'de' + slider.slideCount;
+        return  (i + 1) + ' de ' + slider.slideCount;
     }
   });
-  //$(".ptMainslider").slick("getSlick").slideCount;
   /* End-of-Noyon*/
 
 

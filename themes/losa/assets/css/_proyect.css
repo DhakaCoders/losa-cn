@@ -13,16 +13,19 @@
 	height: 34px;
 	background: url('../images/pt-pg-entry-title.png');
 }
-.pt-pg-entry-title-inr h4{
+.pt-pg-entry-title{
 	font-size: 26px;
 	text-transform: uppercase;
-	font-family: 'Poppins', sans-serif;
 	color: #131313;
 	margin-bottom: 0;
+	font-weight: 400;
 	border-bottom: 4px solid #ed1b24;
 }
 .pt-pg-entry-title-inr h4 span{
 	color: #ed1b24;
+}
+.pt-pg-right{
+	padding-bottom: 215px;
 }
 .pt-xs-ls-form{
 	position: relative;
@@ -40,13 +43,8 @@
 }
 .pt-xs-ls-form .ls-form-sec-cntlr{
 	z-index: 2;
+	padding-bottom: 30px;
 	position: relative;
-}
-.pt-xs-ls-form .ls-form-sec-cntlr{
-	padding-bottom: 45px;
-}
-.pt-xs-ls-form .text-white .entry-hdr-desc{
-	padding-top: 30px;
 }
 .pt-xs-ls-form .text-white .entry-hdr-wrap .entry-hdr-title{
 	font-size: 35px;
@@ -57,11 +55,11 @@
 	margin-bottom: 10px;
 }
 .pt-xs-ls-form .ls-form-btn{
-	margin-top: 42px;
+	margin-top: 15px;
 }
 .pt-pg-right-mdl-entry-title{
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 .pt-pg-right-mdl-entry-title .entry-hdr-wrap{
 	margin-top: 56px;
@@ -85,7 +83,7 @@
 .pt-sl-lft{
 	float: left;
 	position: relative;
-    width: 250px;
+    width: 265px;
     height: 45px;
     font-size: 16px;
     color: #FFF;
@@ -137,12 +135,14 @@
 	padding-left: 36px;
 	text-transform: uppercase;
 	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
 }
 .pt-sl-rt-inr > p{
 	margin-bottom: 0;
 	text-transform: uppercase;
 	color: #6a6a6a;
 	padding-left: 33px;
+	font-family: 'Poppins', sans-serif;
 }
 .pt-sl-rt-icon{
 	position: absolute;
@@ -173,7 +173,7 @@
 .slick-arrows {
     position: relative;
     padding-top: 12px;
-    padding-left: 17px;
+    padding-left: 24px;
 }
 .pt-slick-prev{
 	float: left;
@@ -182,61 +182,57 @@
 	width: 13px;
 	transform: rotate(180deg);
 	cursor: pointer;
+	opacity: 0.5;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
 }
 .pt-slick-next{
 	float: left;
-	margin-left: 33px;
+	margin-left: 20px;
 	background: url('../images/pt-slick-next-arrow.png');
 	height: 24px;
 	width: 13px;
 	cursor: pointer;
+	opacity: 0.5;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
 }
-
-
-
-
-.pt-slider-cntlr .slider .slick-prev{
-	position: absolute;
-    top: initial;
-    right: 150px;
-    left: initial;
-    bottom: -12px;
-    z-index: 1;
-    width: 14px;
-    height: 25px;
-    transform: initial;
-    cursor: pointer;
-    transition: 0.25s;
+.pt-slick-prev:hover,
+.pt-slick-next:hover{
+	opacity: 1;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
 }
-.pt-slider-cntlr .slider .slick-next{
+.ptMainslider .custom_paging{
+	list-style: none;
+	padding: 0;
+	margin: 0;
 	position: absolute;
-    top: initial;
-    right: 120px;
-    bottom: -12px;
-    z-index: 1;
-    width: 14px;
-    height: 25px;
-    transform: initial;
-    cursor: pointer;
-    transition: 0.25s;
+	right: 24px;
+	bottom: -22px;
 }
-/* .slick-arrow */
-.pt-slider-cntlr .ptMainslider .slider__counter{
-	position: absolute;
-	right: 33px;
-	bottom: -25px;
-	z-index: 1;
-	font-size: 15px;
-	font-weight: 300;
-	pointer-events: none;
+.ptMainslider .custom_paging li{
+	display: none;
+	list-style: none;
+	padding: 0;
+}
+.ptMainslider .custom_paging li:before{
+	content: none;
+}
+.ptMainslider .custom_paging li.slick-active{
+	display: block;
 	color: #ed1b24;
+	font-size: 15px;
 	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-style: italic;
 }
-
-/* pt-slider */
-
-
-
 .pt-pg-right-desc{
 	padding-top: 100px;
 }
@@ -250,9 +246,26 @@
 	padding-top: 12px;
 	padding-bottom: 35px;
 }
-
-
-
+.pt-xs-form-cntlr .ls-form-cntlr{
+	padding-top: 8px;
+}
+.pt-pg-entry-hdr-cntlr .entry-hdr-wrap{
+	margin-top: 27px;
+}
+.pt-pg-entry-hdr-cntlr .entry-hdr-desc{
+	padding-top: 10px;
+	padding-bottom: 0;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+.pt-pg-entry-hdr-cntlr .entry-hdr-desc > p{
+	margin-bottom: 0;
+}
+.pt-accordion{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 .hh-accordion-hdr{
 	position: relative;
     width: 210px;
@@ -319,7 +332,6 @@
 	margin-bottom: 0;
 	font-size: 16px;
 	font-weight: 500;
-	font-family: 'Poppins', sans-serif;
 	padding-left: 50px;
 	position: relative;
 	-webkit-transition: all 0.3s ease-out;
@@ -344,6 +356,7 @@ transform: translateY(-50%); */
 	transition: all 0.3s ease-out;
 
 }
+.hh-accordion-hdr:hover .hh-accordion-title:after,
 .hh-accordion-active .hh-accordion-title:after{
 	transform: rotate(180deg);
 	-webkit-transition: all 0.3s ease-out;
@@ -351,19 +364,6 @@ transform: translateY(-50%); */
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
-/* .hh-accordion-title:hover:after{
-	content: none;
-}
-.hh-accordion-title:hover:before{
-	content: "";
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	right: 2px;
-	background: url('../images/btm-arrow.png');
-	width: 16px;
-	height: 10px;
-} */
 .hh-accordion-des{
 	padding-left: 11px;
 }
@@ -380,10 +380,23 @@ transform: translateY(-50%); */
 	font-size: 15px;
 	border-bottom: 1px solid transparent;
 	color: #171717;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
 }
-.hh-accordion-des > div > ul > li:hover > a{
+.hh-accordion-des > div > ul > li.active > a{
+	font-weight: 600;
+	font-style: italic;
+}
+.hh-accordion-des > div > ul > li:hover > a,
+.hh-accordion-des > div > ul > li.active > a{
 	border-color: #ededed;
 	color: #ed1b24;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
 }
 .hh-accordion-des > div > ul > li > a:before{
 	content: "";
@@ -395,10 +408,12 @@ transform: translateY(-50%); */
 	height: 8px;
 	width: 5px;
 }
-.hh-accordion-des > div > ul > li:hover > a:before{
+.hh-accordion-des > div > ul > li:hover > a:before,
+.hh-accordion-des > div > ul > li.active > a:before{
 	content: none;
 }
-.hh-accordion-des > div > ul > li:hover > a:after{
+.hh-accordion-des > div > ul > li:hover > a:after,
+.hh-accordion-des > div > ul > li.active > a:after{
 	content: "";
 	position: absolute;
 	left: 0;
@@ -407,4 +422,8 @@ transform: translateY(-50%); */
 	background: url('../images/accourdion-list-arrow.png');
 	height: 8px;
 	width: 5px;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
 }

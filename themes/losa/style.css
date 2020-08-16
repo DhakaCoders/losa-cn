@@ -14,15 +14,3 @@ Text Domain: losa
 .ls-slider-sec .ls-slide-angel-img{
 	display: none;
 }
-
-.ptMainslider .custom_paging{
-	position: absolute;
-	right: 0;
-	bottom: 0;
-}
-.ptMainslider .custom_paging li{
-	display: none;
-}
-.ptMainslider .custom_paging li.slick-active{
-	display: block;
-}
