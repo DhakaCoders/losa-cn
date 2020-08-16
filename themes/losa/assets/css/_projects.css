@@ -535,6 +535,7 @@ Slider customizations
 		clear: left;
 	}
 
+
 }
 
 /*----- max-width 767px -----*/
@@ -646,6 +647,28 @@ Slider customizations
 	}
 	.tabs-bar ul li:after{
 		content: none;
+	}
+	.tabs-bar ul li .av-tab-title a{
+		display: inline-flex;
+		max-width: 160px;
+		width: 100%;
+		text-align: center;
+		justify-content: center;
+		border-bottom: 2px solid #ededed;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.tabs-bar ul li{
+		margin-bottom: 1px;
+	}
+	.tabs-bar ul li.ui-tabs-active .av-tab-title a:before{
+		content: none;
+	}
+	.tabs-bar ul li:last-child .av-tab-title a{
+		border-bottom: none;
+	}
+	.tabs-bar ul li .av-tab-title{
+		font-size: 17px;
 	}
 }
 
