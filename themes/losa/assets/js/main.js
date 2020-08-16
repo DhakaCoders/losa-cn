@@ -288,14 +288,23 @@ if( $('.blogGrdItemsSlider').length ){
       rows: 2,
       adaptiveHeight: true,
       responsive: [
-      {
-        breakpoint: 478,
-        settings: {
-          slidesPerRow: 1,
-          rows: 1,
+        {
+          breakpoint: 992,
+          settings: {
+            slidesPerRow: 2,
+          }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesPerRow: 3,
+            rows: 1,
+          }
         }
-      }
-    ]
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
   });
 }
 

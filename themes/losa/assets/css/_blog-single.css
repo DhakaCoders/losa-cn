@@ -3,6 +3,7 @@
 blog-single-content-wrp
 ===================
 */
+
 .page-top-entry-hdr{
 	padding-left: 45px;
 	padding-top: 10px;
@@ -265,7 +266,7 @@ Slider customizations
 	font-weight: 600;
 }
 .art-recient{
-	padding-bottom:35px;
+	padding-bottom:25px;
 }
 .catagory-wrp ul{
 	list-style: none;
@@ -369,7 +370,7 @@ Slider customizations
 .ar-slider .slick-dots {
 	bottom: -64px;
 	padding-bottom:0px;
-	margin-top: 60px;
+	margin-top: 40px;
 	position: static;
 	z-index: 99999;
 	padding-top:33px;
@@ -388,7 +389,18 @@ Slider customizations
 
 /*----- max-width 1199px -----*/
 @media(max-width: 1199px){
-	
+	.blog-single-rgt-sidebar-wrp .blog-page-entry-hdr-cntlr .entry-hdr-title {
+	    font-size: 39px;
+	}
+	.blog-single-rgt-sidebar-wrp .blog-page-entry-hdr-cntlr .entry-hdr-sub-title {
+	    font-size: 14px;
+	}
+	.blog-single-post-dsc h2{
+		font-size: 26px;
+	}
+	.blog-single-post-dsc h2::before{
+		top: 19px;
+	}
 
 }
 
@@ -397,12 +409,24 @@ Slider customizations
 	.ar-slide-h a br{
 		display: none;
 	}
+	.blog-single-post-dsc{
+		padding-bottom: 10px;
+	}
+	.blog-slider-top .afterBeforeEffect{
+		max-width: 450px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.blog-single-page .page-top-entry-hdr{
+		margin-top: 15px;
+	}
 }
 
 /*----- max-width 767px -----*/
 @media(max-width: 767px){
-	.blog-single-content-wrp,
-	.fl-breadcrumb{
+	.fl-breadcrumb,
+	.blog-single-post-dsc h2{
 		text-align: center;
 	}
 	.blog-single-date,
@@ -417,13 +441,11 @@ Slider customizations
 	.service-box-dsce ul{
 		margin-left: 0;
 	}
-	.blog-single-post-dsc ul li,
 	.clic-lft-dsce ul li, 
 	.service-box-dsce ul li{
 		padding-left: 0;
 		padding-bottom: 16px;
 	}
-	.blog-single-post-dsc ul li:before,
 	.clic-lft-dsce ul li:before, 
 	.service-box-dsce ul li:before{
 		content: url(../images/thik-icon.png);
@@ -441,8 +463,25 @@ Slider customizations
 		padding-bottom: 40px;
 		
 	}
+	.blog-single-post-dsc h2{
+		padding: 25px 0 15px;
+	}
+	.blog-single-post-dsc h2::before{
+		content: "\f0d7"!important;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+	}
 	.blog-single-post-dsc img{
-		padding-bottom: 30px;
+		margin-bottom: 0;
+	}
+	.blog-single-post-dsc h2::before{
+		top: -2px;
+	}
+	.blog-single-post-dsc h2 span{
+		display: inline-block;
 	}
 }
 
@@ -462,7 +501,9 @@ Slider customizations
 	.c-date {
 		margin-left: -5px;
 	}
-
+	.blog-single-post-dsc h2 {
+	    font-size: 22px;
+	}
 }
 
 
