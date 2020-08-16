@@ -4,6 +4,8 @@
 
 .losa-contact-entry-hdr{
 	padding-bottom: 10px;
+	padding-left: 35px;
+	position: relative;
 }
 .losa-contact-entry-hdr-title,
 .losa-xs-contact-entry-hdr-title{
@@ -12,15 +14,13 @@
 	line-height: 1;
 	margin: 0;
 	padding-bottom: 5px;
-	margin-left: 35px;
 	border-bottom: 4px solid #ed1b24;
-	position: relative;
 }
-.losa-contact-entry-hdr-title i,
+.losa-contact-entry-hdr i,
 .losa-xs-contact-entry-hdr-title i{
 	position: absolute;
 	top: 0;
-	left: -35px;
+	left: 0;
 }
 
 
@@ -186,7 +186,7 @@
 	top: -8px;
 }
 .losa-contact-rgtsidebar-tel a i{
-	top: -15px;
+	top: -10px;
 }
 
 
