@@ -566,11 +566,8 @@ Slider customizations
 		text-align: center;
 	}
 	.hrp-tab-inr span{
-		display: inline-block;
-		vertical-align: baseline;
 		cursor: pointer;
 		position: relative;
-		padding-right: 20px;
 	}
 	.hrp-tab-inr .tab-bar-lft-title {
 		padding-right: 0;
@@ -631,9 +628,6 @@ Slider customizations
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.rp-tab-expend{
-		display: none;
-	}
 	.ver-imagen-gl-wrap .slick-arrow{
 		display: none !important;
 	}
@@ -644,7 +638,15 @@ Slider customizations
 	.tab-bar-lft-title{
 		cursor: pointer;
 	}
-
+	.tabs-bar ul li{
+		width: 100%;
+		display: block;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.tabs-bar ul li:after{
+		content: none;
+	}
 }
 
 
