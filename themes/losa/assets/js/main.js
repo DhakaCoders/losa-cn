@@ -224,7 +224,7 @@ if( $('.hmSlider').length ){
     return false;
   });
 
-  $('.ptMainslider').slick({
+  $('.ptPgslider').slick({
     prevArrow: $('.slick-arrows .pt-slick-prev'),
     nextArrow: $('.slick-arrows .pt-slick-next'),
     slidesToShow: 1,
