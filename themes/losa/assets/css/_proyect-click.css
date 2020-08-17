@@ -110,7 +110,7 @@
 }
 .pt-sl-rt-inr{
 	position: relative;
-	padding: 13px 0 14px 0;
+	padding: 13px 0 14px 4px;
 }
 .pt-sl-lft:after{
 	content: " ";
@@ -149,7 +149,7 @@
 }
 .pt-sl-rt-icon{
 	position: absolute;
-	left: 5px;
+	left: 12px;
 	top: 50%;
 	transform: translateY(-50%);
 }
