@@ -10,6 +10,16 @@ ls-about-us-two-part-sec-wrp
 .ls-about-us-two-part-lft{
 	width: 42%;
 	float: left;
+	position: relative;
+	padding: 0 0 18px 18px;
+}
+.lsautpl-btm-angle{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-bottom: 360px solid #000000;
+	border-right: 360px solid transparent;
+	z-index: 1;
 }
 .ls-about-us-two-part-rgt{
 	width: 58%;
@@ -20,7 +30,9 @@ ls-about-us-two-part-sec-wrp
 	background-repeat: no-repeat !important;
 	background-position: center center !important;
 	background-size: cover !important;
-	height: 500px !important;
+	height: 485px !important;
+	position: relative;
+	z-index: 2;
 }
 .ls-about-us-two-part-dsc > em{
 	display: inline-block;
@@ -127,6 +139,10 @@ ls-about-us-two-part-sec-wrp
 	.ls-about-us-two-part-dsc-title-1{
 		font-size: 26px;
 	}
+	.lsautpl-btm-angle {
+	    border-bottom: 260px solid #000000;
+	    border-right: 260px solid transparent;
+	}
 }
 
 @media(max-width: 767px){
@@ -148,6 +164,8 @@ ls-about-us-two-part-sec-wrp
 	.ls-about-us-two-part-dsc-title-1{
 		font-size: 25px;
 	}
+	
+
 }
 
 @media(max-width: 575px){
