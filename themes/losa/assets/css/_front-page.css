@@ -315,21 +315,21 @@ ul li.refGridItem:before{
 	.ls-slider-sec .slick-prev{
 		left: 0;
 		top: 50%;
-		width: 33px;
-    	height: 66px;
+		width: 25px;
+    	height: 50px;
 	}
 	.ls-slider-sec .slick-next{
 		right: 0;
 		top: 50%;
-		width: 33px;
-    	height: 66px;
+		width: 25px;
+    	height: 50px;
 	} 
 	.ls-slider-sec .entry-hdr-sub-title{
 	    font-size: 13px!important;
 	}
 	.ls-slider {
-	    padding-left: 40px;
-	    padding-right: 40px;
+	    padding-left: 30px;
+	    padding-right: 30px;
 	}
 
 }
