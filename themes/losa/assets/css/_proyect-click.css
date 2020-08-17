@@ -264,6 +264,9 @@
 .pt-pg-entry-hdr-cntlr .entry-hdr-wrap{
 	margin-top: 27px;
 }
+.pt-pg-entry-hdr-wrap .entry-hdr-sub-title{
+		font-size: 20px!important;
+	}
 .pt-pg-entry-hdr-cntlr .entry-hdr-desc{
 	padding-top: 10px;
 	padding-bottom: 0;
@@ -461,7 +464,7 @@
 		font-size: 29px;
 	}
 	.pt-pg-entry-hdr-wrap .entry-hdr-sub-title{
-		font-size: 16px;
+		font-size: 16px!important;
 	}
 	.pt-pg-right-mdl-entry-title .entry-hdr-wrap{
 		padding-left: 51px;
