@@ -445,6 +445,7 @@ Slider customizations
 }
 .twentytwenty-container > img{
 	display: block;
+	transition: initial;
 }
 .twentytwenty-overlay {
     position: absolute;
