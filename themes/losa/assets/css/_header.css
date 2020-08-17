@@ -400,7 +400,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		left: 0;
 		transform: translateY(-50%);
 		color: #ee2029;
-		margin-top: -5px;
+		margin-top: -9px;
 	}
 	.menu-item-has-children >a.sub-menu-plus:before{
 		position: absolute;
@@ -409,7 +409,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		left: 2px;
 		transform: translateY(-50%);
 		color: #ee2029;
-		margin-top: -7px;
+		margin-top: -9px;
 	}
 	a.sub-menu-plus:after{
 		display: none;
