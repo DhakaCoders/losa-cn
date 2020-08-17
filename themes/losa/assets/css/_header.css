@@ -450,7 +450,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 		padding-bottom: 28px;
 	}
 	.xs-main-nav .hdr-rgt-top a{
-		color: #0c0c0c;
+		color: #111111;
 		font-size: 39px;
 		padding-left: 50px;
 	}
@@ -597,6 +597,10 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
 	}
 	.xs-main-nav .hdr-rgt-top i{
 		top: -4px;
+	}
+	.xs-popup-hdr .logo a{
+		max-width: 240px;
+		width: 100%;
 	}
 }
 @media(max-width: 359px){
