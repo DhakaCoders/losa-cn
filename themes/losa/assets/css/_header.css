@@ -500,9 +500,12 @@ nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu .current-menu-item a
 @media(max-width: 359px){
 	.xs-main-nav .hdr-rgt-top a {
 	    font-size: 28px;
+	    padding-left: 35px;
 	}
 	.xs-main-nav .hdr-rgt-top i {
-	    top: -10px;
+	    top: 0px;
+	    max-width: 20px;
+	    width: 100%;
 	}
 }
 
