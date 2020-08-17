@@ -24,6 +24,9 @@
 .pt-pg-entry-title-inr h4 span{
 	color: #ed1b24;
 }
+.pt-pg-left{
+	padding-top: 55px;
+}
 .pt-pg-left .hdr-rgt-top{
 	display: none;
 }
@@ -540,6 +543,9 @@
 	}
 }
 @media(max-width: 767px){
+	.pt-pg-left{
+		padding-top: 45px;
+	}
 	.ptPgslide__item_inr{
 		min-height: 400px;
 	}
@@ -569,6 +575,9 @@
 	}
 }
 @media(max-width: 575px){
+	.pt-pg-left{
+		padding-top: 35px;
+	}
 	.pt-pg-left-desc p:nth-of-type(1){
 	    margin-bottom: 20px;
 	}
