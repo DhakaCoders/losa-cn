@@ -21,11 +21,8 @@
 	font-weight: 400;
 	border-bottom: 4px solid #ed1b24;
 }
-.pt-pg-entry-title-inr h4 span{
+.pt-pg-entry-title span{
 	color: #ed1b24;
-}
-.pt-pg-left{
-	padding-top: 55px;
 }
 .pt-pg-left .hdr-rgt-top{
 	display: none;
@@ -477,7 +474,9 @@
 
 }
 @media(max-width: 991px){
-
+	.pt-pg-left{
+		padding-top: 55px;
+	}
 	.pt-pg-entry-title-inr{
 		display: none;
 	}
