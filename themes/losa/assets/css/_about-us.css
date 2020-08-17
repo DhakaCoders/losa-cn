@@ -164,10 +164,14 @@ ls-about-us-two-part-sec-wrp
 	.ls-about-us-two-part-dsc-title-1{
 		font-size: 25px;
 	}
-	
+
 
 }
-
+@media(max-width: 639px){
+	.ls-about-us-two-part-img{
+		height: 400px!important;
+	}
+}
 @media(max-width: 575px){
 	.ls-about-us-two-part-dsc-title{
 		font-size: 28px;
@@ -182,7 +186,12 @@ ls-about-us-two-part-sec-wrp
 	.ls-about-us-two-part-dsc-title{
 		font-size: 26px;
 	}
-
+	.ls-about-us-two-part-dsc > em{
+		padding-right: 65px;
+	}
+	.ls-about-us-two-part-dsc > em:after{
+		width: 53px;
+	}
 }
 
 @media(max-width: 359px){
