@@ -266,13 +266,17 @@
 	}
 	.ls-quick-contact a{
 		padding: 0;
-		padding-top: 90px;
 	}
 	.ls-quick-contact a i{
 		left: 50%;
-		transform: translateX(-50%);
+		transform: initial;
 		max-width: 80px;
 		width: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 15px;
+		position: static;
 	}
 	.losa-contact-rgtsidebar-msg a i,
 	.losa-contact-rgtsidebar-tel a i{
