@@ -452,7 +452,7 @@
 		display: none;
 	}
 	.slick-arrows-wrap{
-		right: 105px;
+		right: 79px;
 	}
 	.pt-pg-entry-hdr-cntlr .entry-hdr-wrap{
 		padding-left: 51px;
@@ -501,9 +501,6 @@
 		position: absolute;
 		left: 0;
 		top: -2px;
-	}
-	.slick-arrows-wrap{
-		right: 87px;
 	}
 	.pt-slider-skew-title{
 		display: flex;
