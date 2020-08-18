@@ -61,15 +61,32 @@
 	font-weight: 300;
 	position: relative;
 }
-.ls-slide-title:before{
+.ls-slide-title:before,
+.ls-slide-title:after{
 	content: "";
 	position: absolute;
 	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
+	left: 40%;
 	height: 4px;
-	width: 45px;
+	max-width: 45px;
+	width: 100%;
 	background: #ededed;
+}
+.ls-slide-title:after{
+	background: #ededed;
+	z-index: 1;
+}
+.ls-slide-title:before{
+	z-index: 2;
+	background: #ed1b24;
+	width: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.ls-slide-item:hover .ls-slide-title:before{
+	width: 100%;
 }
 
 .ls-slide-des p{
