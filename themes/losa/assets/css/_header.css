@@ -470,7 +470,7 @@ nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu .current-menu-item a
 		text-align: left;
 	}
 	.logo{
-		padding-left: 20px;
+		padding-left: 0px;
 	}
 	
 }
@@ -493,6 +493,10 @@ nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu .current-menu-item a
 		top: -4px;
 	}
 	.xs-popup-hdr .logo a{
+		max-width: 240px;
+		width: 100%;
+	}
+	.logo a{
 		max-width: 240px;
 		width: 100%;
 	}
