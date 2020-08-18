@@ -282,11 +282,17 @@ if( $('.mainInnerSlider').length ){
 
 if( $('.blogGrdItemsSlider').length ){
   $('.blogGrdItemsSlider').slick({
-      dots: true,
+      //dots: true,
       slidesPerRow: 3,
-      arrows: false,
+      arrows: true,
       rows: 2,
       adaptiveHeight: true,
+      dotsClass: 'ls-slider-custom-pagi',
+      prevArrow: $('.blog-grd-items-cntlr .ls-prev'),
+      nextArrow: $('.blog-grd-items-cntlr .ls-next'),
+      customPaging: function(slider, i) {
+        return '<li class="lsDot"></li>';
+      },
       responsive: [
         {
           breakpoint: 992,
@@ -310,28 +316,42 @@ if( $('.blogGrdItemsSlider').length ){
 
 
 
-if( $('#ar-slider').length ){
-    $('#ar-slider').slick({
-      dots: true,
+if( $('.arSlider').length ){
+    $('.arSlider').slick({
+      //dots: true,
       infinite: false,
-      arrows: false,
+      arrows: true,
       speed: 300,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+       adaptiveHeight: true,
+      dotsClass: 'ls-slider-custom-pagi',
+      prevArrow: $('.ar-slider-wrp .ls-prev'),
+      nextArrow: $('.ar-slider-wrp .ls-next'),
+      customPaging: function(slider, i) {
+        return '<li class="lsDot"></li>';
+      },
     });
 }
 
 
-if( $('#blog-slider-top').length ){
-    $('#blog-slider-top').slick({
-      dots: true,
-      arrows: false,
+if( $('.blogSliderTop').length ){
+    $('.blogSliderTop').slick({
+      //dots: true,
+      arrows: true,
       infinite: false,
       speed: 300,
       slidesToShow: 1,
       slidesToScroll: 1,
       draggable: false,
+      dotsClass: 'ls-slider-custom-pagi',
+      prevArrow: $('.blog-slider-top-cntlr .ls-prev'),
+      nextArrow: $('.blog-slider-top-cntlr .ls-next'),
+      customPaging: function(slider, i) {
+        return '<li class="lsDot"></li>';
+      },
     });
+
 }
 
 

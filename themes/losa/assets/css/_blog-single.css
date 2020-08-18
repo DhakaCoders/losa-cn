@@ -408,7 +408,12 @@ Slider customizations
 	text-decoration: none;
 	outline: none;
 }
-
+.blog-slider-top-cntlr{
+	padding-bottom: 30px;
+}
+.ar-slider{
+	margin-bottom: 40px;
+}
 
 
 /*----- max-width 1199px -----*/
