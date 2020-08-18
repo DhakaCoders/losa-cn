@@ -472,6 +472,9 @@ nav.main-nav > ul > li.menu-item-has-children > ul.sub-menu .current-menu-item a
 	.logo{
 		padding-left: 0px;
 	}
+	.xs-main-nav .logo{
+		padding-left: 25px;
+	}
 	
 }
 
