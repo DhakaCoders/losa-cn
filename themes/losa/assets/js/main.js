@@ -282,16 +282,16 @@ if( $('.mainInnerSlider').length ){
 
 if( $('.blogGrdItemsSlider').length ){
   $('.blogGrdItemsSlider').slick({
-      //dots: true,
+      dots: true,
       slidesPerRow: 3,
       arrows: true,
       rows: 2,
       adaptiveHeight: true,
-      dotsClass: 'ls-slider-custom-pagi',
+      dotsClass: 'blog-ls-slider-custom-pagi reset-list',
       prevArrow: $('.blog-grd-items-cntlr .ls-prev'),
       nextArrow: $('.blog-grd-items-cntlr .ls-next'),
       customPaging: function(slider, i) {
-        return '<li class="lsDot"></li>';
+        return '';
       },
       responsive: [
         {
@@ -312,45 +312,49 @@ if( $('.blogGrdItemsSlider').length ){
         // instead of a settings object
       ]
   });
+  $('.blog-ls-slider-custom-pagi').appendTo('.blog-slider-moving-cntlr');
 }
 
 
 
 if( $('.arSlider').length ){
     $('.arSlider').slick({
-      //dots: true,
+      dots: true,
       infinite: false,
       arrows: true,
       speed: 300,
       slidesToShow: 1,
       slidesToScroll: 1,
        adaptiveHeight: true,
-      dotsClass: 'ls-slider-custom-pagi',
+      dotsClass: 'ar-slider-custom-pagi reset-list',
       prevArrow: $('.ar-slider-wrp .ls-prev'),
       nextArrow: $('.ar-slider-wrp .ls-next'),
-      customPaging: function(slider, i) {
-        return '<li class="lsDot"></li>';
-      },
+      customPaging: function(slick,index) {
+          return '';
+      }
     });
+
+    $('.ar-slider-custom-pagi').appendTo('.ar-slider-moving-cntlr');
 }
 
 
 if( $('.blogSliderTop').length ){
     $('.blogSliderTop').slick({
-      //dots: true,
+      dots: true,
       arrows: true,
       infinite: false,
       speed: 300,
       slidesToShow: 1,
       slidesToScroll: 1,
       draggable: false,
-      dotsClass: 'ls-slider-custom-pagi',
+      dotsClass: 'bt-slider-custom-pagi reset-list',
       prevArrow: $('.blog-slider-top-cntlr .ls-prev'),
       nextArrow: $('.blog-slider-top-cntlr .ls-next'),
       customPaging: function(slider, i) {
-        return '<li class="lsDot"></li>';
+        return '';
       },
     });
+    $('.bt-slider-custom-pagi').appendTo('.bt-slider-moving-cntlr');
 
 }
 
