@@ -391,6 +391,7 @@
 .hh-accordion-des > div > ul > li{
 	padding: 7px 0;
 	padding-left: 12px;
+	position: relative;
 }
 .hh-accordion-des > div > ul > li > a{
 	display: inline-block;
@@ -403,13 +404,33 @@
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
+.hh-accordion-des > div > ul > li > a:after{
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 1px;
+	background: #ededed;
+	left: 12px;
+	right: 0;
+	bottom: 0;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}.hh-accordion-des > div > ul > li.active > a:after,
+.hh-accordion-des > div > ul > li:hover > a:after{
+	width: 100%;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
 .hh-accordion-des > div > ul > li.active > a{
 	font-weight: 600;
 	font-style: italic;
 }
 .hh-accordion-des > div > ul > li:hover > a,
 .hh-accordion-des > div > ul > li.active > a{
-	border-color: #ededed;
 	color: #ed1b24;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
@@ -426,12 +447,12 @@
 	height: 8px;
 	width: 5px;
 }
-.hh-accordion-des > div > ul > li:hover > a:before,
-.hh-accordion-des > div > ul > li.active > a:before{
+.hh-accordion-des > div > ul > li:hover  > a:before,
+.hh-accordion-des > div > ul > li.active  > a:before{
 	content: none;
 }
-.hh-accordion-des > div > ul > li:hover > a:after,
-.hh-accordion-des > div > ul > li.active > a:after{
+.hh-accordion-des > div > ul > li:hover:after,
+.hh-accordion-des > div > ul > li.active:after{
 	content: "";
 	position: absolute;
 	left: 0;
@@ -666,7 +687,7 @@
 		padding-top: 2px;
 	}
 	.pt-pg-entry-title{
-		font-size: 18px;
+		font-size: 19.5px;
 	    border-bottom: 2px solid #ed1b24;
 	    padding-bottom: 2px;
 	}

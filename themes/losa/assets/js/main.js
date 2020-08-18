@@ -224,6 +224,26 @@ if( $('.hmSlider').length ){
     return false;
   });
 
+  /*$('.hh-accordion-hdr').on('click', function() {
+    $(this).next().slideUp();
+    var $box = $(this).closest('.hh-accordion-tab-row');
+    $box.find('.hh-accordion-des').stop().slideToggle();
+    $box.siblings().find('.hh-accordion-des').stop().slideUp();
+    
+    return false;
+  });*/
+/*  $('.hh-accordion-des').hide();
+  $('.hh-accordion-hdr').on('click', function() {
+    var current = $(this).next('.hh-accordion-des');
+    if (current.is(':visible')) {
+      current.slideUp();
+    } else {
+      current.slideDown();
+    }
+    return false;
+  });
+*/
+
   $('.ptPgslider').slick({
     prevArrow: $('.slick-arrows .pt-slick-prev'),
     nextArrow: $('.slick-arrows .pt-slick-next'),

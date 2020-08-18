@@ -230,6 +230,11 @@
 	.ls-grid-item-img{
 		min-height: 300px;
 	}
+	.text-white .entry-hdr-desc p{
+		max-width: 872px;
+		width: 100%;
+		margin: auto;
+	}
 }
 @media(max-width: 991px){
 	.ls-form-input-field{
@@ -241,6 +246,10 @@
 	}
 	.ls-grid-item-img{
 		min-height: 265px;
+	}
+	.ls-grid-items{
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 @media(max-width: 767px){
