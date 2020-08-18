@@ -264,6 +264,9 @@
 	background-size: 8px auto!important;
 }
 
+body.home .xs-top-phone{
+	padding-bottom: 12px;
+}
 
 
 /* responsive */
@@ -288,6 +291,9 @@
 	}
 	.mainSliderRgtDes p{
 		padding-left: 15px;
+	}
+	.mainSlider.slick-slider ul.slick-dots{
+		right: 160px!important;
 	}
 }
 @media(max-width: 1023px){
