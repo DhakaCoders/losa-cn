@@ -12,6 +12,8 @@
 }
 .xs-top-phone-cntlr .xs-top-phone.hdr-rgt-top{
 	display: block!important;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .blog-page-entry-hdr-cntlr .entry-hdr-title{
 	font-size: 45px;
