@@ -68,29 +68,30 @@ if( $('.rp-tab-slider-xs').length ){
     });
   });
 }
+if( $( "#tabs" ).length ){
+  $( "#tabs" ).tabs({
+    classes: {
+      "ui-tabs": "highlight"
+    },
+      activate: function(event, ui) {
+          var currentTabIndex = ui.newTab.index().toString();
+          var currentTabIndex = parseInt(currentTabIndex); //0,1
+          var currentTabIndex = currentTabIndex + 1;
 
-$( "#tabs" ).tabs({
-  classes: {
-    "ui-tabs": "highlight"
-  },
-    activate: function(event, ui) {
-        var currentTabIndex = ui.newTab.index().toString();
-        var currentTabIndex = parseInt(currentTabIndex); //0,1
-        var currentTabIndex = currentTabIndex + 1;
-
-        $('.rpTabSlider').slick('refresh'); //make slick work
-        //make after before img work
-        $('#tabs-'+currentTabIndex).find('.afterBeforeEffect').each(function(index) {
-          var afterBeforeEffectInduvidual = $(this);
-          afterBeforeEffectInduvidual.twentytwenty({ 
-              click_to_move: true,
-              before_label: 'ANTES', // Set a custom before label
-              after_label: 'DESPUÉS',  
+          $('.rpTabSlider').slick('refresh'); //make slick work
+          //make after before img work
+          $('#tabs-'+currentTabIndex).find('.afterBeforeEffect').each(function(index) {
+            var afterBeforeEffectInduvidual = $(this);
+            afterBeforeEffectInduvidual.twentytwenty({ 
+                click_to_move: true,
+                before_label: 'ANTES', // Set a custom before label
+                after_label: 'DESPUÉS',  
+            });
           });
-        });
 
-    }  
-});
+      }  
+  });
+}
 /*------
 <--End Home Page Tab
 ------*/

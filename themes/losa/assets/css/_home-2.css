@@ -160,7 +160,8 @@
 	text-align: center;
 	margin-bottom: 20px;
 }
-.mainSliderRgtDes p span{
+.mainSliderRgtDes p span,
+.mainSliderRgtDes p strong{
 	text-transform: uppercase;
 	color: #ed1b24;
 }

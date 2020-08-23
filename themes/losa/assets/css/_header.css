@@ -71,7 +71,8 @@ nav.main-nav > ul > li:first-child{
 nav.main-nav > ul > li:last-child{
 	padding-right: 0;
 }
-nav.main-nav > ul > li .active{
+nav.main-nav > ul > li .active,
+nav.main-nav > ul > li.current_page_item > a{
 	font-style: italic;
 	color: #171717;
 	font-weight: 600;
@@ -111,14 +112,16 @@ nav.main-nav > ul > li > a:after{
 	transition: all 0.3s ease-out 0s;
 }
 nav.main-nav > ul > li > a:hover:after,
-nav.main-nav > ul > li .active:after{
+nav.main-nav > ul > li .active:after,
+nav.main-nav > ul > li.current_page_item > a:after{
 	transform: scale(1,1);
 	-webkit-transition: all 0.3s ease-out 0s;
 	-moz-transition: all 0.3s ease-out 0s;
 	-o-transition: all 0.3s ease-out 0s;
 	transition: all 0.3s ease-out 0s;
 }
-nav.main-nav > ul > li .active:hover{
+nav.main-nav > ul > li .active:hover,
+nav.main-nav > ul > li.current_page_item > a:hover{
 	color: #171717;
 }
 nav.main-nav > ul > li:hover a{
