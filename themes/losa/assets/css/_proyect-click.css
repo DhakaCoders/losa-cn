@@ -64,8 +64,11 @@
 	text-align: center;
 	margin-bottom: 25px;
 }
+.pt-xs-ls-form{
+	margin-bottom: 56px;
+}
 .pt-pg-right-mdl-entry-title .entry-hdr-wrap{
-	margin-top: 56px;
+	margin-top: 0;
 }
 .pt-pg-right-mdl-entry-title .entry-hdr-wrap .entry-hdr-title{
 	font-size: 46px;
@@ -630,6 +633,9 @@
 	}
 	.pt-pg-right-mdl-entry-title{
 		margin-bottom: 15px;
+	}
+	.pt-xs-ls-form {
+	    margin-bottom: 30px;
 	}
 }
 @media(max-width: 479px){
