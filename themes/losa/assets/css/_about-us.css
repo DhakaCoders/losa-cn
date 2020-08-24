@@ -57,7 +57,7 @@ ls-about-us-two-part-sec-wrp
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 }
-.ls-about-us-two-part-dsc-title{
+.ls-about-us-two-part-dsc h2{
 	display:block;
 	font-size: 36px;
 	line-height: 1;
@@ -67,12 +67,12 @@ ls-about-us-two-part-sec-wrp
 	margin-bottom: 12px;
 	font-style: italic;
 }
-.ls-about-us-two-part-dsc-title span{
+.ls-about-us-two-part-dsc h2 span{
 	display: inline-block;
 	vertical-align: baseline;
 	color: #ed1b24;
 }
-.ls-about-us-two-part-dsc-title-1{
+.ls-about-us-two-part-dsc h3{
 	display: block;
 	font-size: 28px;
 	line-height: 1.1;
@@ -86,7 +86,7 @@ ls-about-us-two-part-sec-wrp
 .ls-about-us-two-part-dsc p{
 	text-align: justify;
 }
-.ls-about-us-two-part-dsc-title-1 span{
+.ls-about-us-two-part-dsc h3 span{
 	display: inline-block;
 	vertical-align: baseline;
 	color: #ed1b24;
@@ -123,20 +123,20 @@ ls-about-us-two-part-sec-wrp
 }
 
 @media(max-width: 1199px){
-	.ls-about-us-two-part-dsc-title{
+	.ls-about-us-two-part-dsc h2{
 		font-size: 34px;
 	}
-	.ls-about-us-two-part-dsc-title-1{
+	.ls-about-us-two-part-dsc h3{
 		font-size: 27px;
 	}
 
 }
 
 @media(max-width: 991px){
-	.ls-about-us-two-part-dsc-title{
+	.ls-about-us-two-part-dsc h2{
 		font-size: 32px;
 	}
-	.ls-about-us-two-part-dsc-title-1{
+	.ls-about-us-two-part-dsc h3{
 		font-size: 26px;
 	}
 	.lsautpl-btm-angle {
@@ -158,10 +158,10 @@ ls-about-us-two-part-sec-wrp
 	    padding-top: 50px;
 	    padding-bottom: 60px;
 	}
-	.ls-about-us-two-part-dsc-title{
+	.ls-about-us-two-part-dsc h2{
 		font-size: 30px;
 	}
-	.ls-about-us-two-part-dsc-title-1{
+	.ls-about-us-two-part-dsc h3{
 		font-size: 25px;
 	}
 
@@ -173,17 +173,17 @@ ls-about-us-two-part-sec-wrp
 	}
 }
 @media(max-width: 575px){
-	.ls-about-us-two-part-dsc-title{
+	.ls-about-us-two-part-dsc h2{
 		font-size: 28px;
 	}
-	.ls-about-us-two-part-dsc-title-1{
+	.ls-about-us-two-part-dsc h3{
 		font-size: 24px;
 	}
 
 }
 
 @media(max-width: 479px){
-	.ls-about-us-two-part-dsc-title{
+	.ls-about-us-two-part-dsc h2{
 		font-size: 26px;
 	}
 	.ls-about-us-two-part-dsc > em{
